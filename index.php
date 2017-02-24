@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+    <!-- Links to our Style.css file -->
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+    <title>Xtraordinary Joy!</title>
 </head>
 <body>
     <h1>Blank WordPress Template</h1>
