@@ -18,4 +18,7 @@
     <section>
         <?php dynamic_sidebar('homepage-widget4'); ?>
     </section>
+    <section>
+        <?php echo show_olimometer(olimometer_id,olimometer_css);?>
+    </section>
 <?php get_footer(); ?>
