@@ -13,3 +13,15 @@ Text Domain: xtraordinary_joy_template
 	font-size: 14px;
 	line-height: 16px;
 }
+
+/*--- Nav Styling ---*/
+.index_menu ul {
+	list-style-type: none;
+	list-style-image: none;
+}
+.index_menu ul li a {
+	text-decoration:none;
+}
+.index_menu ul li a:hover {
+	color: #cccccc;
+}

@@ -15,7 +15,7 @@
         <?php
             wp_nav_menu(array(
 			    'sort_column' => 'menu_order',
-		        'container_class' => 'blank-menu-header'
+		        'container_class' => 'index_menu'
 			));
         ?>
     </nav>
