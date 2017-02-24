@@ -13,6 +13,9 @@ Text Domain: xtraordinary_joy_template
 	font-size: 14px;
 	line-height: 16px;
 }
+.display_none {
+	display: none;
+}
 
 /*--- Nav Styling ---*/
 .index_menu ul {

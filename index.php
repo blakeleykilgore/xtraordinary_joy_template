@@ -1,11 +1,5 @@
 <?php get_header(); ?>
     <section>
-        <?php
-			if ( have_posts() ) {
-			    while ( have_posts() ) {
-			        the_post();
-			    } // end while
-			} // end if
-		?>
+        <?php dynamic_sidebar('homepage-widget1'); ?>
     </section>
 <?php get_footer(); ?>
