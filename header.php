@@ -11,3 +11,11 @@
         <h1><?php bloginfo('name'); ?></h1>
  		<p><?php bloginfo('description'); ?></p>
     </header>
+    <nav>
+        <?php
+            wp_nav_menu(array(
+			    'sort_column' => 'menu_order',
+		        'container_class' => 'blank-menu-header'
+			));
+        ?>
+    </nav>
