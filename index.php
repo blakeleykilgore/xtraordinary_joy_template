@@ -1,4 +1,11 @@
 <?php get_header(); ?>
+    <nav>
+        <?php
+            wp_nav_menu(array(
+                'menu' => 'index_menu'
+            ));
+        ?>
+    </nav>
     <section>
         <?php dynamic_sidebar('homepage-widget1'); ?>
     </section>
