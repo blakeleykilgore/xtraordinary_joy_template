@@ -19,6 +19,12 @@
         <?php dynamic_sidebar('homepage-widget4'); ?>
     </section>
     <section>
-        <?php echo show_olimometer(olimometer_id,olimometer_css);?>
+        <h2>Our Fundraising</h2>
+        <article>
+            <?php echo show_olimometer(olimometer_id,olimometer_css);?>
+        </article>
+        <article>
+            <?php dynamic_sidebar('homepage-widget5'); ?>
+        </article>
     </section>
 <?php get_footer(); ?>
