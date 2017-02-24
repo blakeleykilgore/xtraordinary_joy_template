@@ -8,6 +8,6 @@
 </head>
 <body>
     <header>
-       <h1>Blank WordPress Template</h1>
-       <p>This is my WordPress template.</p>
+        <h1><?php bloginfo('name'); ?></h1>
+ 		<p><?php bloginfo('description'); ?></p>
     </header>
