@@ -10,7 +10,6 @@ function blank_widgets_init() {
 		'before_title' => '<p class="display_none">',
 		'after_title' => '</p>'
 		));
-	}
     register_sidebar( array(
 		'name' => ('homepgae_widget2'),
 		'id' => 'homepage-widget2',
