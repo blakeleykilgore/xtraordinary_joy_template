@@ -48,6 +48,8 @@
 				echo $queried_post->post_content;
 			?>
 		</div>
-</section>
-
+	</section>
+	<section>
+        <h2>Slick.js will go here</h2>
+    </section>
 <?php get_footer(); ?>
