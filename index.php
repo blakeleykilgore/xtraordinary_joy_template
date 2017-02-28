@@ -10,25 +10,25 @@
     <main>
         <h2 class="display_none">Xtraordinary Joy Homepage</h2>
         <section>
-            <?php dynamic_sidebar('homepage-widget1'); ?>
+            <?php dynamic_sidebar('homepage-banner'); ?>
         </section>
         <section>
-            <?php dynamic_sidebar('homepage-widget2'); ?>
+            <?php dynamic_sidebar('homepage-mission-statement'); ?>
         </section>
         <section>
-            <?php dynamic_sidebar('homepage-widget3'); ?>
+            <?php dynamic_sidebar('homepage-icon-links'); ?>
         </section>
         <section>
-            <?php dynamic_sidebar('homepage-widget4'); ?>
+            <?php dynamic_sidebar('homepage-our-story'); ?>
         </section>
         <section>
             <h3>Our Fundraising</h3>
-            <?php dynamic_sidebar('homepage-widget5'); ?>
+            <?php dynamic_sidebar('homepage-money-raised'); ?>
         </section>
         <section>
-            <?php dynamic_sidebar('homepage-widget6'); ?>
+            <?php dynamic_sidebar('homepage-upcoming-events'); ?>
         </section>
         <section>
-            <?php dynamic_sidebar('homepage-widget7'); ?>
+            <?php dynamic_sidebar('homepage-faces'); ?>
         </section>
 <?php get_footer(); ?>
