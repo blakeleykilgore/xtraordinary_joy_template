@@ -27,4 +27,10 @@
             <?php dynamic_sidebar('homepage-widget5'); ?>
         </article>
     </section>
+    <section>
+        <?php dynamic_sidebar('homepage-widget6'); ?>
+    </section>
+    <section>
+        <?php dynamic_sidebar('homepage-widget7'); ?>
+    </section>
 <?php get_footer(); ?>

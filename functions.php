@@ -46,6 +46,24 @@ function blank_widgets_init() {
 		'before_title' => '<h3>',
 		'after_title' => '</h3>'
 		));
+    register_sidebar( array(
+		'name' => ('homepage_widget6'),
+		'id' => 'homepage-widget6',
+		'description' => 'sixth widget for the homepage',
+		'before_widget' => '<div class="homepage_upcoming_events">',
+		'after_widget' => '</div>',
+		'before_title' => '<h2>',
+		'after_title' => '</h2>'
+		));
+    register_sidebar( array(
+		'name' => ('homepage_widget7'),
+		'id' => 'homepage-widget7',
+		'description' => 'seventh widget for the homepage',
+		'before_widget' => '<div class="homepage_faces">',
+		'after_widget' => '</div>',
+		'before_title' => '<h2>',
+		'after_title' => '</h2>'
+		));
 	}
 add_action('widgets_init', 'blank_widgets_init');
 
