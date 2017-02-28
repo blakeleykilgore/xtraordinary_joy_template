@@ -2,7 +2,7 @@
 	<nav>
 		<?php
 			wp_nav_menu(array(
-				'menu' => 'index_menu'
+				'menu' => 'pages_menu'
 			));
 		?>
 	</nav>
