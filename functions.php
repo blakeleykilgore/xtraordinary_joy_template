@@ -34,7 +34,7 @@ function blank_widgets_init() {
 		'description' => 'Fourth widget for the homepage',
 		'before_widget' => '<div class="homepage_our_story">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="display_none">',
+		'before_title' => '<h3>',
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
