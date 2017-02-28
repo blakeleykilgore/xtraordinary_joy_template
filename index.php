@@ -21,9 +21,6 @@
     <section>
         <h2>Our Fundraising</h2>
         <article>
-            <?php echo show_olimometer(olimometer_id,olimometer_css);?>
-        </article>
-        <article>
             <?php dynamic_sidebar('homepage-widget5'); ?>
         </article>
     </section>
