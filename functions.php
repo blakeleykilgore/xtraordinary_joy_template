@@ -73,6 +73,33 @@ function blank_widgets_init() {
 		'before_title' => '<p class="display_none">',
 		'after_title' => '</p>'
 		));
+    register_sidebar( array(
+        'name' => ('contact_widget1'),
+        'id' => 'contact-widget1',
+        'description' => 'First widget for the contact page',
+        'before_widget' => '<div class="contact_banner">',
+        'after_widget' => '</div>',
+        'before_title' => '<p class="display_none">',
+        'after_title' => '</p>'
+        ));
+    register_sidebar( array(
+        'name' => ('contact_widget2'),
+        'id' => 'contact-widget2',
+        'description' => 'Second widget for the contact page',
+        'before_widget' => '<div class="contact_contactinfo">',
+        'after_widget' => '</div>',
+        'before_title' => '<p class="display_none">',
+        'after_title' => '</p>'
+        ));
+    register_sidebar( array(
+        'name' => ('contact_widget3'),
+        'id' => 'contact-widget3',
+        'description' => 'Third widget for the contact page',
+        'before_widget' => '<div class="contact_follow_us">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+        ));
 	}
 add_action('widgets_init', 'blank_widgets_init');
 

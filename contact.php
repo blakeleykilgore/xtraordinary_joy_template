@@ -7,4 +7,13 @@
 			));
 		?>
 	</nav>
+	<section>
+        <?php dynamic_sidebar('contact-widget1'); ?>
+    </section>
+	<section>
+        <?php dynamic_sidebar('contact-widget2'); ?>
+    </section>
+	<section>
+        <?php dynamic_sidebar('contact-widget3'); ?>
+    </section>
 <?php get_footer(); ?>
