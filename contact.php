@@ -11,13 +11,13 @@
 	<main>
 		<h2 class="display_none">Contact Page</h2>
 		<section>
-	        <?php dynamic_sidebar('contact-widget1'); ?>
+	        <?php dynamic_sidebar('contact-banner'); ?>
 	    </section>
 		<section>
-	        <?php dynamic_sidebar('contact-widget2'); ?>
+	        <?php dynamic_sidebar('contact-info'); ?>
 	    </section>
 		<section>
-	        <?php dynamic_sidebar('contact-widget3'); ?>
+	        <?php dynamic_sidebar('contact-social-info'); ?>
 	    </section>
 		<section>
 			<?php if (have_posts()) :

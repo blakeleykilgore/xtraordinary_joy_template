@@ -11,7 +11,7 @@
 	<main>
 		<h2 class="display_none">Xtraordinary Joy Partner Page</h2>
 		<section>
-	        <?php dynamic_sidebar('partner-widget1'); ?>
+	        <?php dynamic_sidebar('partner-banner'); ?>
 	    </section>
 		<section>
 			<h3>Sponsorship Packages</h2>
