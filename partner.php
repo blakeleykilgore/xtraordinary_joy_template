@@ -1,3 +1,4 @@
+<?php /* Template Name: Partner Page */ ?>
 <?php get_header(); ?>
 	<nav>
 		<?php

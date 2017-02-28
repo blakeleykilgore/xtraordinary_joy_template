@@ -1,4 +1,4 @@
-<?php /* Template Name: Contact Page */ ?>
+<?php /* Template Name: Spotlight Child Page */ ?>
 <?php get_header(); ?>
 	<nav>
 		<?php
