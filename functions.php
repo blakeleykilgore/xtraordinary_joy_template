@@ -7,8 +7,8 @@ function blank_widgets_init() {
 		'description' => 'First widget for the homepage',
 		'before_widget' => '<div class="homepage_banner">',
 		'after_widget' => '</div>',
-		'before_title' => '<p class="display_none">',
-		'after_title' => '</p>'
+		'before_title' => '<h3 class="display_none">',
+		'after_title' => '</h3>'
 		));
     register_sidebar( array(
 		'name' => ('homepage_widget2'),
@@ -16,8 +16,8 @@ function blank_widgets_init() {
 		'description' => 'Second widget for the homepage',
 		'before_widget' => '<div class="homepage_mission_statement">',
 		'after_widget' => '</div>',
-		'before_title' => '<p class="display_none">',
-		'after_title' => '</p>'
+		'before_title' => '<h3 class="display_none">',
+		'after_title' => '</h3>'
 		));
     register_sidebar( array(
 		'name' => ('homepage_widget3'),
@@ -25,8 +25,8 @@ function blank_widgets_init() {
 		'description' => 'Third widget for the homepage',
 		'before_widget' => '<div class="homepage_icon_links">',
 		'after_widget' => '</div>',
-		'before_title' => '<p class="display_none">',
-		'after_title' => '</p>'
+		'before_title' => '<h3 class="display_none">',
+		'after_title' => '</h3>'
 		));
     register_sidebar( array(
 		'name' => ('homepage_widget4'),
@@ -34,17 +34,17 @@ function blank_widgets_init() {
 		'description' => 'Fourth widget for the homepage',
 		'before_widget' => '<div class="homepage_my_story">',
 		'after_widget' => '</div>',
-		'before_title' => '<p class="display_none">',
-		'after_title' => '</p>'
+		'before_title' => '<h3 class="display_none">',
+		'after_title' => '</h3>'
 		));
     register_sidebar( array(
 		'name' => ('homepage_widget5'),
 		'id' => 'homepage-widget5',
 		'description' => 'fifth widget for the homepage',
-		'before_widget' => '<div class="homepage_research">',
-		'after_widget' => '</div>',
-		'before_title' => '<h3>',
-		'after_title' => '</h3>'
+		'before_widget' => '<article class="homepage_research">',
+		'after_widget' => '</article>',
+		'before_title' => '<h4 class="display_none">',
+		'after_title' => '</h4>'
 		));
     register_sidebar( array(
 		'name' => ('homepage_widget6'),
@@ -52,8 +52,8 @@ function blank_widgets_init() {
 		'description' => 'sixth widget for the homepage',
 		'before_widget' => '<div class="homepage_upcoming_events">',
 		'after_widget' => '</div>',
-		'before_title' => '<h2>',
-		'after_title' => '</h2>'
+		'before_title' => '<h3>',
+		'after_title' => '</h3>'
 		));
     register_sidebar( array(
 		'name' => ('homepage_widget7'),
@@ -61,8 +61,8 @@ function blank_widgets_init() {
 		'description' => 'seventh widget for the homepage',
 		'before_widget' => '<div class="homepage_faces">',
 		'after_widget' => '</div>',
-		'before_title' => '<h2>',
-		'after_title' => '</h2>'
+		'before_title' => '<h3>',
+		'after_title' => '</h3>'
 		));
     register_sidebar( array(
 		'name' => ('partner_widget1'),
