@@ -64,6 +64,15 @@ function blank_widgets_init() {
 		'before_title' => '<h2>',
 		'after_title' => '</h2>'
 		));
+    register_sidebar( array(
+		'name' => ('partner_widget1'),
+		'id' => 'partner-widget1',
+		'description' => 'First widget for the partner page',
+		'before_widget' => '<div class="partner_banner">',
+		'after_widget' => '</div>',
+		'before_title' => '<p class="display_none">',
+		'after_title' => '</p>'
+		));
 	}
 add_action('widgets_init', 'blank_widgets_init');
 

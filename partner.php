@@ -8,6 +8,9 @@
 		?>
 	</nav>
 	<section>
+        <?php dynamic_sidebar('partner-widget1'); ?>
+    </section>
+	<section>
 		<h2>Sponsorship Packages</h2>
 		<div>
 			<?php
