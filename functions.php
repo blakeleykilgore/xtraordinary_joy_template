@@ -70,8 +70,8 @@ function blank_widgets_init() {
 		'description' => 'First widget for the partner page',
 		'before_widget' => '<div class="partner_banner">',
 		'after_widget' => '</div>',
-		'before_title' => '<p class="display_none">',
-		'after_title' => '</p>'
+		'before_title' => '<h3 class="display_none">',
+		'after_title' => '</h3>'
 		));
     register_sidebar( array(
         'name' => ('contact_widget1'),
@@ -79,8 +79,8 @@ function blank_widgets_init() {
         'description' => 'First widget for the contact page',
         'before_widget' => '<div class="contact_banner">',
         'after_widget' => '</div>',
-        'before_title' => '<p class="display_none">',
-        'after_title' => '</p>'
+        'before_title' => '<h3 class="display_none">',
+        'after_title' => '</h3>'
         ));
     register_sidebar( array(
         'name' => ('contact_widget2'),
@@ -88,8 +88,8 @@ function blank_widgets_init() {
         'description' => 'Second widget for the contact page',
         'before_widget' => '<div class="contact_contactinfo">',
         'after_widget' => '</div>',
-        'before_title' => '<p class="display_none">',
-        'after_title' => '</p>'
+        'before_title' => '<h3 class="display_none">',
+        'after_title' => '</h3>'
         ));
     register_sidebar( array(
         'name' => ('contact_widget3'),
@@ -97,8 +97,8 @@ function blank_widgets_init() {
         'description' => 'Third widget for the contact page',
         'before_widget' => '<div class="contact_follow_us">',
         'after_widget' => '</div>',
-        'before_title' => '<h2>',
-        'after_title' => '</h2>'
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
         ));
 	}
 add_action('widgets_init', 'blank_widgets_init');
