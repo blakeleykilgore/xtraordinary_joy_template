@@ -2,7 +2,7 @@
 /*-------------- Enable Widgets--------------- */
 function blank_widgets_init() {
     register_sidebar( array(
-		'name' => ('homepage_widget1'),
+		'name' => ('Homepage Banner'),
 		'id' => 'homepage-widget1',
 		'description' => 'First widget for the homepage',
 		'before_widget' => '<div class="homepage_banner">',
@@ -11,7 +11,7 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
-		'name' => ('homepage_widget2'),
+		'name' => ('Homepage Mission Statement'),
 		'id' => 'homepage-widget2',
 		'description' => 'Second widget for the homepage',
 		'before_widget' => '<div class="homepage_mission_statement">',
@@ -20,7 +20,7 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
-		'name' => ('homepage_widget3'),
+		'name' => ('Homepage Icon Links'),
 		'id' => 'homepage-widget3',
 		'description' => 'Third widget for the homepage',
 		'before_widget' => '<div class="homepage_icon_links">',
@@ -29,16 +29,16 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
-		'name' => ('homepage_widget4'),
+		'name' => ('Hompage Our Story Section'),
 		'id' => 'homepage-widget4',
 		'description' => 'Fourth widget for the homepage',
-		'before_widget' => '<div class="homepage_my_story">',
+		'before_widget' => '<div class="homepage_our_story">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="display_none">',
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
-		'name' => ('homepage_widget5'),
+		'name' => ('Homepage Money Raised Section'),
 		'id' => 'homepage-widget5',
 		'description' => 'fifth widget for the homepage',
 		'before_widget' => '<article class="homepage_research">',
@@ -47,7 +47,7 @@ function blank_widgets_init() {
 		'after_title' => '</h4>'
 		));
     register_sidebar( array(
-		'name' => ('homepage_widget6'),
+		'name' => ('Hompeage Upcoming Events'),
 		'id' => 'homepage-widget6',
 		'description' => 'sixth widget for the homepage',
 		'before_widget' => '<div class="homepage_upcoming_events">',
@@ -56,7 +56,7 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
-		'name' => ('homepage_widget7'),
+		'name' => ('Hompeage Faces of Xq27.3-q28 Deletion'),
 		'id' => 'homepage-widget7',
 		'description' => 'seventh widget for the homepage',
 		'before_widget' => '<div class="homepage_faces">',
@@ -65,7 +65,7 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
-		'name' => ('partner_widget1'),
+		'name' => ('Partner Page Banner'),
 		'id' => 'partner-widget1',
 		'description' => 'First widget for the partner page',
 		'before_widget' => '<div class="partner_banner">',
@@ -74,7 +74,7 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
-        'name' => ('contact_widget1'),
+        'name' => ('Contact Page Banner'),
         'id' => 'contact-widget1',
         'description' => 'First widget for the contact page',
         'before_widget' => '<div class="contact_banner">',
@@ -83,7 +83,7 @@ function blank_widgets_init() {
         'after_title' => '</h3>'
         ));
     register_sidebar( array(
-        'name' => ('contact_widget2'),
+        'name' => ('Contact Page Contact Information'),
         'id' => 'contact-widget2',
         'description' => 'Second widget for the contact page',
         'before_widget' => '<div class="contact_contactinfo">',
@@ -92,7 +92,7 @@ function blank_widgets_init() {
         'after_title' => '</h3>'
         ));
     register_sidebar( array(
-        'name' => ('contact_widget3'),
+        'name' => ('Contact Page Social Media Links'),
         'id' => 'contact-widget3',
         'description' => 'Third widget for the contact page',
         'before_widget' => '<div class="contact_follow_us">',
