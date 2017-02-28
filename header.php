@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
-        <h1><?php bloginfo('name'); ?></h1>
+        <img src="#">
+        <h1 class="display_none"><?php bloginfo('name'); ?></h1>
  		<p class="display_none"><?php bloginfo('description'); ?></p>
     </header>
