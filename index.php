@@ -23,6 +23,8 @@
         </section>
         <section>
             <?php echo do_shortcode("[campaigns]"); ?>
+            <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/campaigns/donate">Donate</a>
+            <?php dynamic_sidebar('homepage-money-raised'); ?>
         </section>
         <section>
             <?php dynamic_sidebar('homepage-upcoming-events'); ?>

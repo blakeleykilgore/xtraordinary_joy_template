@@ -158,7 +158,7 @@ function blank_widgets_init() {
 		'description' => 'First widget for the donate page',
 		'before_widget' => '<div class="pages_banner">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="display_none">',
+		'before_title' => '<h3>',
 		'after_title' => '</h3>'
 		));
 	}
