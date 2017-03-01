@@ -49,7 +49,8 @@ header img {
 }
 
 /*--- Nav Styling ---*/
-#menu-index_menu {
+#menu-index_menu,
+#menu-icon_menu {
 	list-style-type: none;
 	list-style-image: none;
     text-align: center;
@@ -82,7 +83,8 @@ header img {
         float: left;
     }
 
-    #menu-index_menu li {
+    #menu-index_menu li,
+    #menu-icon_menu li {
         display: inline;
     }
 }
@@ -142,4 +144,34 @@ header img {
 .homepage_mission_statement a {
     padding: 0.75em;
     text-align: center;
+}
+
+
+/*--- Home Page Quick Links ---*/
+
+#menu-icon_menu {
+    margin-top: 5em;
+}
+@media (min-width: 750px) {
+    #menu-icon_menu {
+        margin-top: 10em;
+    }
+}
+
+#menu-icon_menu li a {
+    color: #ff0099;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+@media (min-width: 750px) {
+    #menu-icon_menu li a {
+        padding-right: 2em;
+    }
+}
+
+#menu-item-55 a {
+    background: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/heart_icon.png') no-repeat;
+    background-size: contain;
+    padding-top: 3em;
 }
