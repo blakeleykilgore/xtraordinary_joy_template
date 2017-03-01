@@ -1,4 +1,4 @@
-<?php /* Template Name: Volunteer Page */ ?>
+<?php /* Template Name: Event Page */ ?>
 <?php get_header(); ?>
 	<nav>
 		<?php

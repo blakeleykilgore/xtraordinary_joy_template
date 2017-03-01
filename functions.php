@@ -93,7 +93,7 @@ function blank_widgets_init() {
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="display_none">',
 		'after_title' => '</h3>'
-		)); 
+		));
     /*-----Resources Page Widgets-----*/
     register_sidebar( array(
 		'name' => ('Resources Page Banner'),
