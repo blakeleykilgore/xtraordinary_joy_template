@@ -56,6 +56,15 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
+		'name' => ('Events Page Banner'),
+		'id' => 'events-banner',
+		'description' => 'First widget for the events page',
+		'before_widget' => '<div class="pages_banner">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="display_none">',
+		'after_title' => '</h3>'
+		));
+    register_sidebar( array(
 		'name' => ('Homepage Mission Statement'),
 		'id' => 'homepage-mission-statement',
 		'description' => 'Second widget for the homepage',
