@@ -12,5 +12,8 @@
 		<section>
 	        <?php dynamic_sidebar('events-banner'); ?>
 	    </section>
+		<section>
+	        <?php dynamic_sidebar('events-page-upcoming-events'); ?>
+	    </section>
 	</main>
 <?php get_footer(); ?>

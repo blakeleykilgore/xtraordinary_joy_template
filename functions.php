@@ -142,6 +142,15 @@ function blank_widgets_init() {
 		'before_title' => '<h3 class="display_none">',
 		'after_title' => '</h3>'
 		));
+    register_sidebar( array(
+		'name' => ('Events Page Upcoming Events'),
+		'id' => 'events-page-upcoming-events',
+		'description' => 'Second widget for the events page',
+		'before_widget' => '<div class="events_page_upcoming_events">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="display_none">',
+		'after_title' => '</h3>'
+		));
     /*-----Donate Page Widgets-----*/
     register_sidebar( array(
 		'name' => ('Donate Page Banner'),
