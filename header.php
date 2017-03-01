@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="#">
+        <img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/02/web_logo.png">
         <h1 class="display_none"><?php bloginfo('name'); ?></h1>
  		<p class="display_none"><?php bloginfo('description'); ?></p>
     </header>

@@ -8,25 +8,138 @@ License: Open
 Text Domain: xtraordinary_joy_template
 */
 
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+
+
 *{
 	color: #000000;
 	font-size: 14px;
 	line-height: 16px;
+    font-family: "Roboto Condensed", sans-serif;
 }
+
 .display_none {
 	display: none;
 }
 
+li {
+    list-style-type: none;
+}
+
+/*--- Header/Logo ---*/
+header {
+	text-align: center;
+}
+
+header img {
+    width: 30%;
+}
+
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+
+    header img {
+        width: 15%;
+        float: left;
+        padding: 1em;
+    }
+}
+
 /*--- Nav Styling ---*/
-.index_menu ul {
+#menu-index_menu {
 	list-style-type: none;
 	list-style-image: none;
+    text-align: center;
+    padding: 0;
 }
-.index_menu ul li a {
-	text-decoration:none;
+
+#menu-index_menu li {
+    padding-bottom: 1em;
 }
-.index_menu ul li a:hover {
+
+#menu-index_menu li a {
+	text-decoration: none;
+    color: #ff0099;
+    font-weight: 400;
+}
+
+#menu-index_menu li a:hover {
 	color: #cccccc;
 }
 
-/* -- Lauren was here!! */
+#menu-item-67 a {
+    background-color: #ff0099;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0.75em 1.5em;
+}
+
+@media (min-width: 750px) {
+    nav {
+        float: left;
+    }
+
+    #menu-index_menu li {
+        display: inline;
+    }
+}
+
+/*--- MAIN HOME CONTENT ---*/
+@media(min-width: 750px) {
+    main {
+        clear: both;
+    }
+}
+
+/*--- Home Page Banner ---*/
+.homepage_banner {
+    background: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/02/home_banner.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    padding: 9em 1em 0;
+}
+
+.homepage_banner .textwidget h4 {
+    text-align: center;
+    font-size: 2em;
+    color: #006699;
+    line-height: 34px;
+}
+
+.homepage_joy_styling {
+    display: block;
+    color: #ff0099;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 0.25em;
+}
+
+.textwidget a {
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+
+/*--- Home Mission Statement ---*/
+.homepage_mission_statement {
+    background: repeating-linear-gradient(45deg, rgba(0, 102, 153, 0.5), rgba(0, 102, 153, 0.5) 3px, rgba(0, 102, 153, 0.6) 3px, rgba(0, 102, 153, 0.6) 7px);
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-top: -1em;
+}
+
+.homepage_mission_statement p {
+    color: #ffffff;
+    padding: 1em;
+}
+
+.homepage_mission_statement a {
+    padding: 0.75em;
+    text-align: center;
+}
