@@ -53,7 +53,7 @@
 			</div>
 		</section>
 		<section>
-	        <?php dynamic_sidebar('partner-upcoming-events'); ?>
+	        <h3><a href="http://www.blakeleykilgore.com/xtraordinaryjoy/upcoming_events">View Upcoming Events</a></h3>
 	    </section>
 		<section>
 	        <h3>Slick.js will go here</h2>
