@@ -22,8 +22,7 @@
             <?php dynamic_sidebar('homepage-our-story'); ?>
         </section>
         <section>
-            <h3>Our Fundraising</h3>
-            <?php dynamic_sidebar('homepage-money-raised'); ?>
+            <?php echo do_shortcode("[campaigns]"); ?>
         </section>
         <section>
             <?php dynamic_sidebar('homepage-upcoming-events'); ?>

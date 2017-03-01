@@ -1,4 +1,3 @@
-<?php /* Template Name: Donate Page */ ?>
 <?php get_header(); ?>
 	<nav>
 		<?php
