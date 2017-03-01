@@ -53,6 +53,9 @@
 			</div>
 		</section>
 		<section>
+	        <?php dynamic_sidebar('partner-upcoming-events'); ?>
+	    </section>
+		<section>
 	        <h3>Slick.js will go here</h2>
 	    </section>
 	</main>
