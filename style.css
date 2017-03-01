@@ -23,6 +23,9 @@ Text Domain: xtraordinary_joy_template
 	display: none;
 }
 
+li {
+    list-style-type: none;
+}
 
 /*--- Header/Logo ---*/
 header {
@@ -89,4 +92,34 @@ header img {
     main {
         clear: both;
     }
+}
+
+.homepage_banner {
+    background: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/02/home_banner.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    padding: 10em 0;
+}
+
+.homepage_banner .textwidget h4 {
+    text-align: center;
+    font-size: 2em;
+    color: #006699;
+    line-height: 34px;
+}
+
+.homepage_joy_styling {
+    display: block;
+    color: #ff0099;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 0.25em;
+}
+
+.textwidget a {
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 4px;
 }
