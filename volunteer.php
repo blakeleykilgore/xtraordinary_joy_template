@@ -12,5 +12,8 @@
 		<section>
 	        <?php dynamic_sidebar('volunteer-banner'); ?>
 	    </section>
+		<section>
+	        <?php dynamic_sidebar('volunteer-form'); ?>
+	    </section>
 	</main>
 <?php get_footer(); ?>
