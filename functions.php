@@ -119,6 +119,15 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
+		'name' => ('Volunteer Page Form'),
+		'id' => 'volunteer-form',
+		'description' => 'second widget for the volunteer page',
+		'before_widget' => '<div class="volunteer_form">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>'
+		));
+    register_sidebar( array(
         'name' => ('Contact Page Contact Information'),
         'id' => 'contact-info',
         'description' => 'Second widget for the contact page',
