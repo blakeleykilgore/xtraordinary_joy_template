@@ -7,4 +7,10 @@
 			));
 		?>
 	</nav>
+	<main>
+		<h2 class="display_none">Xtraordinary Joy Donate Page</h2>
+		<section>
+	        <?php dynamic_sidebar('donate-banner'); ?>
+	    </section>
+	</main>
 <?php get_footer(); ?>

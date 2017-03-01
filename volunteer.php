@@ -7,4 +7,10 @@
 			));
 		?>
 	</nav>
+	<main>
+		<h2 class="display_none">Xtraordinary Joy Volunteer Page</h2>
+		<section>
+	        <?php dynamic_sidebar('volunteer-banner'); ?>
+	    </section>
+	</main>
 <?php get_footer(); ?>
