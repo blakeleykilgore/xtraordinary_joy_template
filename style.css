@@ -8,9 +8,9 @@ License: Open
 Text Domain: xtraordinary_joy_template
 */
 
-
+/*--- General Styles ---*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 
 *{
 	color: #000000;
@@ -21,6 +21,12 @@ Text Domain: xtraordinary_joy_template
 
 .display_none {
 	display: none;
+}
+
+h3 {
+    font-family: 'Gochi Hand', cursive;
+    color: #ff0099;
+    font-size: 3em;
 }
 
 li {
@@ -188,4 +194,35 @@ margin: 2%;
 
 #menu-icon_menu {
 	padding-top: 125px;
+}
+
+
+/*--- Home Page Our Story ---*/
+
+.homepage_our_story {
+    background-color: #e6e6e6;
+}
+
+.homepage_our_story h3 {
+    border-bottom: 1px solid #006699;
+    width: 4em;
+    padding: 2em 1em 0.2em;
+}
+
+.homepage_our_story img {
+    width: 80%;
+    border: 1.5em solid #ffffff;
+    border-radius: 50%;
+    margin-left: -5em;
+}
+
+@media (min-width: 550px) {
+    .homepage_our_story img {
+        width: 55%;
+    }
+}
+
+.homepage_our_story p {
+    padding: 2em;
+    line-height: 25px;
 }
