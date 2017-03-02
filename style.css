@@ -151,8 +151,9 @@ header img {
 
 #menu-icon_menu li a {
 color: #ff0099;
-font-size: 1.5em;
+font-size: 3.5em;
 text-transform: uppercase;
+margin: 2%;
 }
 
 #menu-item-55 > a:nth-child(2) {
@@ -160,7 +161,6 @@ text-transform: uppercase;
 	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: center top;
-	padding: 10px;
 	padding-top: 100px;
 }
 
