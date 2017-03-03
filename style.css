@@ -306,3 +306,15 @@ span.event-venue {
 .events-list-item .event-venue {
 	font-size: 0.7em;
 }
+
+div.homepage_upcoming_events > ul.events-list li:nth-child(1) {
+	background-image: url("http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/foosball_event-02.png");
+	background-size: 100%;
+	background-position: center;
+}
+
+div.homepage_upcoming_events > ul.events-list li:nth-child(2) {
+	background-image: url("http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/mask_event.png");
+	background-size: 100%;
+	background-position: center;
+}
