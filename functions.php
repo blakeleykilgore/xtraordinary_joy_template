@@ -94,6 +94,15 @@ function blank_widgets_init() {
 		'before_title' => '<h3 class="display_none">',
 		'after_title' => '</h3>'
 		));
+    register_sidebar( array(
+		'name' => ('Partner Page Sponsors Slider'),
+		'id' => 'sponsors-slider',
+		'description' => 'Second widget for the partner page',
+		'before_widget' => '<div class="sponsors_slider">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="display_none">',
+		'after_title' => '</h3>'
+		));
     /*-----Resources Page Widgets-----*/
     register_sidebar( array(
 		'name' => ('Resources Page Banner'),
