@@ -25,6 +25,10 @@ Text Domain: xtraordinary_joy_template
 	display: none;
 }
 
+.container {
+	overflow-x: hidden;
+}
+
 h3 {
     font-family: 'Gochi Hand', cursive;
     color: #ff0099;
