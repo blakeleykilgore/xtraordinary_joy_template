@@ -27,7 +27,7 @@ Text Domain: xtraordinary_joy_template
 
 .container {
 	overflow-x: hidden;
-	padding-left: 0;
+	padding: 0;
 }
 
 h3 {
@@ -87,8 +87,7 @@ header img {
 
 /*--- Home Page: Banner ---*/
 #homepage_banner_image {
-	width: 110%;
-	margin-left: -5%;
+	width: 100%;
 	position: relative;
 	z-index: -1000;
 	margin-top: -9%;
