@@ -290,10 +290,19 @@ article.homepage_research {
 }
 
 /*--- Home Page: Upcoming Events ---*/
-.homepage_upcoming_events {
-    width: 100%;
-    background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/events_bg.png');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center;
+div.homepage_upcoming_events {
+	    margin-top: 10%;
+}
+div.homepage_upcoming_events > ul.events-list li {
+	width: 47%;
+    display: inline-block;
+	padding: 10% 0 10% 2%;
+}
+
+span.event-venue {
+	display: block;
+}
+
+.events-list-item .event-venue {
+	font-size: 0.7em;
 }
