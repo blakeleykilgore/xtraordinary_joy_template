@@ -1,12 +1,13 @@
 <?php get_header(); ?>
-    <nav>
-        <h2 class="display_none">Navigation</h2>
-        <?php
-            wp_nav_menu(array(
-                'menu' => 'index_menu'
-            ));
-        ?>
-    </nav>
+        <nav class="nine columns">
+            <h2 class="display_none">Navigation</h2>
+            <?php
+                wp_nav_menu(array(
+                    'menu' => 'index_menu'
+                ));
+            ?>
+        </nav>
+    </div>
     <main>
         <h2 class="display_none">Xtraordinary Joy Homepage</h2>
         <section>
