@@ -195,7 +195,7 @@ section.row.icon_links > div:nth-child(3) a {
 
 /*--- Home Page: Our Story ---*/
 section.our_story {
-    background-image: linear-gradient(transparent 50px, #e6e6e6 10px)
+    background-image: linear-gradient(transparent 237px, #e6e6e6 10px);
 }
 
 .homepage_our_story h3 {
@@ -209,8 +209,7 @@ section.our_story {
 }
 
 div.homepage_our_story_image > img {
-	width: 109%;
-	margin-left: -5%;
+	width: 100%;
 	margin-top: 5%;
 }
 

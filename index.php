@@ -31,7 +31,7 @@
         </section>
         <section class="row our_story">
             <div class="five columns homepage_our_story_image">
-                <img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/moriah_profile.png">
+                <img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/moriah_profile-2.png">
             </div>
             <div class="seven columns">
                 <?php dynamic_sidebar('homepage-our-story'); ?>
