@@ -10,27 +10,44 @@
     </div>
     <main>
         <h2 class="display_none">Xtraordinary Joy Homepage</h2>
-        <section>
-            <?php dynamic_sidebar('homepage-banner'); ?>
+        <section class="row">
+            <div class="twelve columns">
+                <?php dynamic_sidebar('homepage-banner'); ?>
+            </div>
         </section>
-        <section>
+        <section class="row">
             <?php dynamic_sidebar('homepage-mission-statement'); ?>
         </section>
-        <section>
-            <?php dynamic_sidebar('homepage-icon-links'); ?>
+        <section class="row icon_links">
+            <div class="four columns">
+                <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/donate">Donate</a>
+            </div>
+            <div class="four columns">
+                <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/volunteer">Get Involved</a>
+            </div>
+            <div class="four columns">
+                <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/resources">Resources</a>
+            </div>
         </section>
-        <section>
+        <section class="row">
             <?php dynamic_sidebar('homepage-our-story'); ?>
         </section>
-        <section>
-            <?php echo do_shortcode("[campaigns]"); ?>
-            <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/campaigns/donate">Donate</a>
-            <?php dynamic_sidebar('homepage-money-raised'); ?>
+        <section class="row">
+            <div class="three columns">
+                <img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/donations_x_icon.png" alt="Donations Raised" title="Donations Raised" />
+            </div>
+            <div class="six columns">
+                <?php echo do_shortcode("[campaigns]"); ?>
+                <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/campaigns/donate">Donate</a>
+            </div>
+            <div class="three columns">
+                <?php dynamic_sidebar('homepage-money-raised'); ?>
+            </div>
         </section>
-        <section>
+        <section class="row">
             <?php dynamic_sidebar('homepage-upcoming-events'); ?>
         </section>
-        <section>
+        <section class="row">
             <?php dynamic_sidebar('homepage-faces'); ?>
         </section>
 <?php get_footer(); ?>
