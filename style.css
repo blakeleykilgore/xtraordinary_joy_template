@@ -27,6 +27,7 @@ Text Domain: xtraordinary_joy_template
 
 .container {
 	overflow-x: hidden;
+	padding-left: 0;
 }
 
 h3 {
@@ -201,7 +202,6 @@ section.our_story {
 .homepage_our_story h3 {
     border-bottom: 1px solid #006699;
     width: 4em;
-    padding: 2em 1em 0.2em;
 }
 
 .homepage_our_story img {
@@ -289,8 +289,6 @@ article.homepage_research {
     font-size: 1.5em;
     text-transform: uppercase;
 }
-
-
 
 /*--- Home Page: Upcoming Events ---*/
 .homepage_upcoming_events {
