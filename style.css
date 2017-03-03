@@ -134,14 +134,15 @@ header img {
 
 /*--- Home Page: Quick Links ---*/
 
-#menu-icon_menu li a {
+section.icon_links > div a{
 color: #ff0099;
 font-size: 3vw;
 text-transform: uppercase;
 margin: 2%;
+padding: 5em;
 }
 
-#menu-item-55 > a:nth-child(2) {
+section.row.icon_links > div:nth-child(1) a {
 	background: url("http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/heart_icon.png");
 	background-size: 100px;
 	background-repeat: no-repeat;
@@ -149,30 +150,37 @@ margin: 2%;
 	padding-top: 100px;
 }
 
-#menu-item-57 > a {
+section.icon_links div {
+	text-align: center;
+	padding-top: 10em;
+}
+
+
+section.row.icon_links > div:nth-child(2) a {
 	background: url("http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/sun_icon.png");
 	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: center top;
-	padding: 10px;
-	padding-top: 100px;
+	padding-top: 105px;
 }
 
-#menu-item-56 > a {
+section.row.icon_links > div:nth-child(3) a {
 	background: url("http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/X_icon.png");
 	background-size: 61px;
 	background-repeat: no-repeat;
 	background-position: center top;
-	padding: 10px;
-	padding-top: 100px;
+	padding-top: 105px;
 }
 
-#menu-item-55 > a:nth-child(1) {
-	display: none;
-}
+@media (min-width: 400px) {
+	section.icon_links > div a{
+		padding: 0;
+	}
 
-#menu-icon_menu {
-	padding-top: 125px;
+	section.row.icon_links > div:nth-child(1) a {
+		padding-left: 3em;
+		padding-right: 3em;
+	}
 }
 
 
