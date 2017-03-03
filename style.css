@@ -215,6 +215,10 @@ div.homepage_our_story_image > img {
 }
 
 /*--- Home Page: Our Fundraising (Widget) ---*/
+#campaign-103 > div.campaign-donation {
+	display:none;
+}
+
 section.our_fundraising {
 	margin-top: 20%;
 }
@@ -233,6 +237,7 @@ section.our_fundraising {
 	position: absolute;
 	width: 94%;
 	margin-top: 65px;
+	text-align: center;
 }
 
 #campaign-103 {
@@ -257,6 +262,7 @@ section.our_fundraising {
     margin-left: 25%;
 	height: 30px;
 	margin-top: 6%;
+	border-radius: 40px;
 }
 
 section.row.our_fundraising > div.six.columns > a {
