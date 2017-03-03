@@ -85,37 +85,12 @@ header img {
     padding: 0.75em 3.5em;
 }
 
-@media screen and (max-width: 450px) {
-	.container {
-		margin-top: 20%;
-	}
-	header img {
-		box-shadow: none;
-	}
-	button#responsive-menu-button {
-		width: 100%;
-	}
-	ul#responsive-menu {
-		margin-top: 25%;
-	}
-	#menu-pages_menu {
-		display: none;
-	}
-
-}
-
 /*--- Home Page: Banner ---*/
 #homepage_banner_image {
 	width: 100%;
 	position: relative;
 	z-index: -1000;
 	margin-top: -8%;
-}
-
-@media screen and (max-width: 450px) {
-	#homepage_banner_image {
-		margin-top: -3%;
-	}
 }
 
 .homepage_banner .textwidget h4 {
@@ -205,17 +180,6 @@ section.row.icon_links > div:nth-child(3) a {
 	background-repeat: no-repeat;
 	background-position: center top;
 	padding-top: 105px;
-}
-
-@media (min-width: 400px) {
-	section.icon_links > div a{
-		padding: 0;
-	}
-
-	section.row.icon_links > div:nth-child(1) a {
-		padding-left: 3em;
-		padding-right: 3em;
-	}
 }
 
 /*--- Home Page: Our Story ---*/
@@ -343,6 +307,35 @@ div.events-list-image {
 	}
 	.events-list-item .event-venue {
 		font-size: 0.7em;
+	}
+	section.icon_links > div a{
+		padding: 0;
+	}
+
+	section.row.icon_links > div:nth-child(1) a {
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.container {
+		margin-top: 20%;
+	}
+	header img {
+		box-shadow: none;
+	}
+	button#responsive-menu-button {
+		width: 100%;
+	}
+	ul#responsive-menu {
+		margin-top: 25%;
+	}
+	#menu-pages_menu {
+		display: none;
+	}
+	#homepage_banner_image {
+		margin-top: -3%;
 	}
 }
 
