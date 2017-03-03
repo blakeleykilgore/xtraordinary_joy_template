@@ -37,15 +37,15 @@
                 <?php dynamic_sidebar('homepage-our-story'); ?>
             </div>
         </section>
-        <section class="row">
-            <div class="three columns">
+        <section class="row our_fundraising">
+            <div class="two columns">
                 <img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/donations_x_icon.png" alt="Donations Raised" title="Donations Raised" />
             </div>
             <div class="six columns">
                 <?php echo do_shortcode("[campaigns]"); ?>
                 <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/campaigns/donate">Donate</a>
             </div>
-            <div class="three columns">
+            <div class="four columns">
                 <?php dynamic_sidebar('homepage-money-raised'); ?>
             </div>
         </section>

@@ -215,9 +215,64 @@ div.homepage_our_story_image > img {
 	margin-top: 5%;
 }
 
-/*--- Home Page: Our Fundraising ---*/
-.homepage_research img {
-    border: none;
+/*--- Home Page: Our Fundraising (Widget) ---*/
+section.our_fundraising {
+	margin-top: 20%;
+}
+
+.our_fundraising img {
+	position: absolute;
+	width: 23%;
+	margin-top: -11%;
+}
+
+#campaign-103 > a > h3 {
+	display: none;
+}
+
+#campaign-103 > div.campaign-description {
+	position: absolute;
+	width: 94%;
+	margin-top: 65px;
+}
+
+#campaign-103 {
+	border: none;
+}
+
+#campaign-103 > div.campaign-donation-stats {
+	position: absolute;
+	margin-top: -29%;
+	margin-left: 14%;
+	font-size: 2em;
+	text-align: center;
+	line-height: 28px;
+}
+
+.amount, .goal-amount {
+	font-size: 1em;
+}
+
+#campaign-103 > div.campaign-progress-bar {
+    width: 75%;
+    margin-left: 25%;
+	height: 30px;
+	margin-top: 6%;
+}
+
+section.row.our_fundraising > div.six.columns > a {
+	display: block;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 8%;
+	color: white;
+	background-color: #006699;
+	padding: 5%;
+}
+
+/*--- Home Page: Our Fundraising (Description) ---*/
+article.homepage_research {
+	display: none;
 }
 
 #donations_title {
@@ -234,6 +289,8 @@ div.homepage_our_story_image > img {
     font-size: 1.5em;
     text-transform: uppercase;
 }
+
+
 
 /*--- Home Page: Upcoming Events ---*/
 .homepage_upcoming_events {
