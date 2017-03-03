@@ -194,8 +194,8 @@ section.row.icon_links > div:nth-child(3) a {
 }
 
 /*--- Home Page: Our Story ---*/
-.homepage_our_story {
-    background-color: #e6e6e6;
+section.our_story {
+    background-image: linear-gradient(transparent 50px, #e6e6e6 10px)
 }
 
 .homepage_our_story h3 {
@@ -207,6 +207,12 @@ section.row.icon_links > div:nth-child(3) a {
 .homepage_our_story img {
     border: 1.5em solid #ffffff;
     border-radius: 50%;
+}
+
+div.homepage_our_story_image > img {
+	width: 109%;
+	margin-left: -5%;
+	margin-top: 5%;
 }
 
 /*--- Home Page: Our Fundraising ---*/

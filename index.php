@@ -29,8 +29,13 @@
                 <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/resources">Resources</a>
             </div>
         </section>
-        <section class="row">
-            <?php dynamic_sidebar('homepage-our-story'); ?>
+        <section class="row our_story">
+            <div class="five columns homepage_our_story_image">
+                <img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/moriah_profile.png">
+            </div>
+            <div class="seven columns">
+                <?php dynamic_sidebar('homepage-our-story'); ?>
+            </div>
         </section>
         <section class="row">
             <div class="three columns">
