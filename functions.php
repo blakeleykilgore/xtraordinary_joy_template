@@ -175,4 +175,7 @@ add_action('widgets_init', 'blank_widgets_init');
 
 /*-------------- Enable Menu --------------- */
 add_theme_support('menus');
+
+/*-------------- Enable Featured Images ----------------*/
+add_theme_support( 'post-thumbnails' );
 ?>

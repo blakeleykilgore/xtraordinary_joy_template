@@ -85,12 +85,37 @@ header img {
     padding: 0.75em 3.5em;
 }
 
+@media screen and (max-width: 450px) {
+	.container {
+		margin-top: 20%;
+	}
+	header img {
+		box-shadow: none;
+	}
+	button#responsive-menu-button {
+		width: 100%;
+	}
+	ul#responsive-menu {
+		margin-top: 25%;
+	}
+	#menu-pages_menu {
+		display: none;
+	}
+
+}
+
 /*--- Home Page: Banner ---*/
 #homepage_banner_image {
 	width: 100%;
 	position: relative;
 	z-index: -1000;
 	margin-top: -8%;
+}
+
+@media screen and (max-width: 450px) {
+	#homepage_banner_image {
+		margin-top: -3%;
+	}
 }
 
 .homepage_banner .textwidget h4 {
@@ -295,31 +320,34 @@ article.homepage_research {
 }
 
 /*--- Home Page: Upcoming Events ---*/
-div.homepage_upcoming_events {
-	    margin-top: 10%;
-}
-div.homepage_upcoming_events > ul.events-list li {
-	width: 47%;
-    display: inline-block;
-	padding: 10% 0 10% 2%;
-}
-
 span.event-venue {
 	display: block;
 }
 
-.events-list-item .event-venue {
-	font-size: 0.7em;
+div.homepage_upcoming_events {
+	    margin-top: 10%;
+}
+div.events-list-image {
+	position: absolute;
+    z-index: -1000;
 }
 
-div.homepage_upcoming_events > ul.events-list li:nth-child(1) {
-	background-image: url("http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/foosball_event-02.png");
-	background-size: 100%;
-	background-position: center;
+@media (min-width: 400px) {
+	.container {
+		width: 100%;
+	}
+	div.homepage_upcoming_events > ul.events-list li {
+		width: 47%;
+	    display: inline-block;
+		padding: 10% 0 10% 2%;
+	}
+	.events-list-item .event-venue {
+		font-size: 0.7em;
+	}
 }
 
-div.homepage_upcoming_events > ul.events-list li:nth-child(2) {
-	background-image: url("http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/mask_event.png");
-	background-size: 100%;
-	background-position: center;
+@media (min-width: 740px) {
+	.container {
+	    width: 80%;
+	}
 }
