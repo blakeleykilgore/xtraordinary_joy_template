@@ -53,8 +53,7 @@ header img {
 }
 
 /*--- Nav Styling ---*/
-#menu-index_menu,
-#menu-icon_menu {
+#menu-index_menu {
 	list-style-type: none;
 	list-style-image: none;
     text-align: center;
@@ -62,42 +61,27 @@ header img {
 }
 
 #menu-index_menu li {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 #menu-index_menu li a {
 	text-decoration: none;
-    color: #ff0099;
     font-weight: 400;
+	text-transform: uppercase;
 }
 
 #menu-index_menu li a:hover {
 	color: #cccccc;
 }
 
-#menu-item-67 a {
+#menu-item-64 > a, #menu-item-21 > a, #menu-item-22 > a, #menu-item-23 > a, #menu-item-24 > a, #menu-item-25 > a, #menu-item-100 > a {
+	color: #ff0099;
+}
+
+#menu-item-115 > a {
     background-color: #ff0099;
-    color: #ffffff;
-    font-weight: 700;
-    padding: 0.75em 1.5em;
-}
-
-@media (min-width: 750px) {
-    nav {
-        float: left;
-    }
-
-    #menu-index_menu li,
-    #menu-icon_menu li {
-        display: inline;
-    }
-}
-
-/*--- MAIN HOME CONTENT ---*/
-@media(min-width: 750px) {
-    main {
-        clear: both;
-    }
+	color: #ffffff;
+    padding: 0.75em 3.5em;
 }
 
 /*--- Home Page: Banner ---*/
