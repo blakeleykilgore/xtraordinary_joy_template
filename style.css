@@ -200,60 +200,23 @@ section.row.icon_links > div:nth-child(3) a {
 }
 
 /*--- Home Page: Our Fundraising ---*/
-.homepage_research {
-    padding: 0 1em 3em;
-}
-
 .homepage_research img {
-    width: 15%;
     border: none;
-}
-
-@media (min-width: 750px) {
-    .homepage_research img {
-        float: left;
-    }
 }
 
 #donations_title {
     color: #006699;
     font-size: 1.8em;
-    margin-left: 2em;
 }
 
 #donations_text {
     border-left: thick solid #006699;
-    margin-left: 20em;
-    padding: 0 1em;
-}
-
-#donations_text p {
-    line-height: 25px;
 }
 
 #donations_text h5 {
     color: #ff0099;
     font-size: 1.5em;
-    margin-bottom: 0;
     text-transform: uppercase;
-}
-
-@media (min-width: 750px) {
-    .homepage_research {
-        padding-bottom: 6em;
-    }
-
-    #donations_text {
-        margin-left: 30em;
-        width: 35%;
-    }
-}
-
-@media (min-width: 950px) {
-    .donations_text {
-        margin-left: 40em;
-        width: 25%;
-    }
 }
 
 
