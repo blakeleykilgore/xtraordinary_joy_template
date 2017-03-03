@@ -110,6 +110,7 @@ header img {
 
 .textwidget a {
     text-align: center;
+    color: #ffffff;
     border: 1px solid white;
     border-radius: 4px;
 }
@@ -139,6 +140,9 @@ div.homepage_mission_statement > div.textwidget {
 
 
 /*--- Home Page: Quick Links ---*/
+section.icon_links {
+	margin-bottom: 10%;
+}
 
 section.icon_links > div a{
 color: #ff0099;
