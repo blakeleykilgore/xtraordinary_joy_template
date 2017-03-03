@@ -263,8 +263,13 @@ margin: 2%;
 
 .homepage_research img {
     width: 15%;
-    float: left;
     border: none;
+}
+
+@media (min-width: 750px) {
+    .homepage_research img {
+        float: left;
+    }
 }
 
 #donations_title {
@@ -275,7 +280,7 @@ margin: 2%;
 
 #donations_text {
     border-left: thick solid #006699;
-    margin-left: 25em;
+    margin-left: 20em;
     padding: 0 1em;
 }
 
