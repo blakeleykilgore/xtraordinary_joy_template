@@ -381,6 +381,10 @@ div.events-list-image {
     border-color: #ff0099;
 }
 
+#package_top {
+    margin-bottom: 5em;
+}
+
 #xtreme img,
 #xcaliber img,
 #xclusive img,
