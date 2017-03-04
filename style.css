@@ -399,6 +399,8 @@ div.events-list-image {
 .pages_banner p a {
     text-align: center;
     padding: 1em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .pages_banner p a:hover {
