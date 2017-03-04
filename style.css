@@ -71,11 +71,12 @@ header img {
 	text-transform: uppercase;
 }
 
-#menu-index_menu li a:hover {
+#menu-index_menu li a:hover,
+#menu-pages_menu li a:hover {
 	color: #cccccc;
 }
 
-#menu-item-64 > a, #menu-item-21 > a, #menu-item-22 > a, #menu-item-23 > a, #menu-item-24 > a, #menu-item-25 > a, #menu-item-100 > a {
+#menu-item-64 > a, #menu-item-21 > a, #menu-item-22 > a, #menu-item-23 > a, #menu-item-24 > a, #menu-item-25 > a, #menu-item-100 > a, #menu-item-68 > a, #menu-item-69 > a, #menu-item-70 > a, #menu-item-71 > a, #menu-item-72 > a, #menu-item-73 > a, #menu-item-101 > a, #menu-item-116 > a {
 	color: #ff0099;
 }
 
@@ -84,6 +85,21 @@ header img {
 	color: #ffffff;
     padding: 0.75em 3.5em;
 }
+
+#menu-pages_menu {
+    padding-top: 2em;
+}
+
+#menu-pages_menu li {
+    display: inline;
+    padding-right: 0.5em;
+    text-transform: uppercase;
+}
+
+#menu-pages_menu li a {
+    color: #ff0099;
+}
+
 
 /*--- Home Page: Banner ---*/
 #homepage_banner_image {
