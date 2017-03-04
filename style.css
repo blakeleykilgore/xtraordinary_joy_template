@@ -396,14 +396,15 @@ div.events-list-image {
     width: 80%;
 }
 
-.pages_banner p a {
+.banner_button {
     text-align: center;
     padding: 1em;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
-.pages_banner p a:hover {
+.banner_button:hover,
+.banner_button:hover {
     color: #ff0099;
     border-color: #ff0099;
 }
@@ -429,6 +430,13 @@ div.events-list-image {
     color: #ff0099;
     font-weight: 700;
     font-size: 1.5em;
+}
+
+
+/*--- Volunteer Page ---*/
+.nf-form-title h3 {
+    text-align: center;
+    margin-top: 1.5em;
 }
 
 
