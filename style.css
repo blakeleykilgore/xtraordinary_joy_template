@@ -344,3 +344,45 @@ div.events-list-image {
 	    width: 80%;
 	}
 }
+
+
+/*--- Partner Page ---*/
+.pages_banner {
+    background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/partner_banner.png');
+    padding: 5em;
+    width: 100%;
+    height: 100%;
+}
+
+.pages_banner h4,
+.pages_banner p {
+    color: #ffffff;
+}
+
+.pages_banner h4 {
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.pages_banner p {
+    line-height: 22px;
+    margin-top: 3em;
+    width: 80%;
+}
+
+.pages_banner p a {
+    text-align: center;
+    padding: 1em;
+}
+
+.pages_banner p a:hover {
+    color: #ff0099;
+    border-color: #ff0099;
+}
+
+#xtreme img,
+#xcaliber img,
+#xclusive img,
+#xcellence img {
+    width: 15%;
+}
