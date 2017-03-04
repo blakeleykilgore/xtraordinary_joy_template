@@ -7,13 +7,19 @@
 			));
 		?>
 	</nav>
+</div>
 	<main>
 		<h2 class="display_none">Xtraordinary Joy Volunteer Page</h2>
-		<section>
-	        <?php dynamic_sidebar('volunteer-banner'); ?>
+		<section class="row">
+            <div class="twelve columns">
+               <?php dynamic_sidebar('volunteer-banner'); ?>
+            </div>
 	    </section>
-		<section>
-	        <?php dynamic_sidebar('volunteer-form'); ?>
+
+		<section class="row">
+            <div class="twelve columns">
+	               <?php dynamic_sidebar('volunteer-form'); ?>
+            </div>
 	    </section>
 	</main>
 <?php get_footer(); ?>
