@@ -22,7 +22,7 @@
 					<h3 id="sponsor_package_title">Sponsorship Packages</h2>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="package_top">
 				<div class="six columns" id="xtreme">
 					<?php
 						$post_id = 75;
