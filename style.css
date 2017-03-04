@@ -386,3 +386,8 @@ div.events-list-image {
 #xcellence img {
     width: 15%;
 }
+
+#sponsor_package_title {
+    text-align: center;
+    margin-top: 1em;
+}
