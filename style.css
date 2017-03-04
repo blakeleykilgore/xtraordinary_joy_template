@@ -90,7 +90,8 @@ header img {
     padding-top: 2em;
 }
 
-#menu-pages_menu li {
+#menu-pages_menu li,
+#menu-footer_menu li {
     display: inline;
     padding-right: 0.5em;
     text-transform: uppercase;
@@ -98,6 +99,14 @@ header img {
 
 #menu-pages_menu li a {
     color: #ff0099;
+}
+
+
+#menu-footer_menu {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    padding: 4em;
 }
 
 
@@ -411,4 +420,10 @@ div.events-list-image {
 #sponsor_package_title {
     text-align: center;
     margin-top: 1em;
+}
+
+
+/*--- Footer ---*/
+footer {
+    background-color: #2b3e47;
 }
