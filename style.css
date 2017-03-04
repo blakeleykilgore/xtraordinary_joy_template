@@ -440,6 +440,39 @@ div.events-list-image {
 }
 
 
+
+/*--- Contact Us ---*/
+.contact_info {
+    text-align: center;
+}
+
+.contact_info h4 {
+    color: #ff0099;
+    font-family: "Gochi Hand", cursive;
+    font-size: 3em;
+    margin-top: 1.5em;
+}
+
+.contact_info p {
+    font-size: 1.5em;
+}
+
+.contact_info p,
+#email {
+    color: #8c8c8c;
+}
+
+#email {
+    font-size: 1em;
+}
+
+#phone_number a {
+    color: #006699;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+
 /*--- Footer ---*/
 footer {
     background-color: #2b3e47;
