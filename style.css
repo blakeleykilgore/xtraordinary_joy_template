@@ -472,6 +472,23 @@ div.events-list-image {
     font-weight: 700;
 }
 
+.contact_follow_us {
+	background-color: #006699;
+}
+
+.contact_follow_us h3 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.contact_follow_us > .textwidget {
+	color: #ffffff;
+	font-size: 1.2em;
+	width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
 
 /*--- Footer ---*/
 footer {
