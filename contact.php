@@ -22,7 +22,10 @@
 			</div>
 	    </section>
 		<section class="row">
-			<div class="twelve columns">
+            <div class="four columns">
+                <img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/donations_x_icon.png" alt="Follow Us" title="Follow Us" id="follow_icon">
+            </div>
+			<div class="eight columns">
 	        	<?php dynamic_sidebar('contact-social-info'); ?>
 			</div>
 	    </section>
