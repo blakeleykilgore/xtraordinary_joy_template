@@ -381,19 +381,29 @@ div.events-list-image {
 }
 
 .pages_banner h4,
-.pages_banner p {
+.pages_banner p,
+.pages_banner > .textwidget {
     color: #ffffff;
 }
 
-.pages_banner h4 {
+.pages_banner h4,
+.pages_banner h3 {
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
     letter-spacing: 5px;
 }
 
-.pages_banner p {
+.pages_banner h3 {
+    font-size: 2em;
+}
+
+.pages_banner p,
+.pages_banner > .textwidget {
     line-height: 22px;
-    margin-top: 3em;
+    margin-top: 2em;
     width: 80%;
+    text-align: center;
 }
 
 .banner_button {
@@ -407,6 +417,12 @@ div.events-list-image {
 .banner_button:hover {
     color: #ff0099;
     border-color: #ff0099;
+}
+
+.pages_banner > .textwidget > a {
+    display: block;
+    width: 30%;
+    margin: 2em auto 0;
 }
 
 #package_top {
@@ -489,6 +505,22 @@ div.events-list-image {
     text-align: center;
 }
 
+.menu-social_links-container {
+    width: 40%;
+    margin: auto;
+}
+
+#menu-social_links li {
+    display: inline;
+}
+
+#nf-field-4 {
+    background-color: #ff0099;
+    color: #ffffff;
+}
+
+
+/*--- Donate Page ---*/
 
 /*--- Footer ---*/
 footer {
