@@ -533,13 +533,12 @@ body > div.container > main > section:nth-child(7) {
 	}
 	.homepage_banner .textwidget h4 {
 		position: absolute;
-	    margin-top: -13.5%;
+	    margin: 0 16%;
+	    margin-top: -33.5%;
 	    font-size: 3vw;
-	    width: 100%;
+	    width: 68%;
 	    padding: 0;
-	    background-color: rgba(255, 255, 255, 0.7);
-	    padding-bottom: 3.5%;
-	    padding-top: 4%;
+	    background-image: linear-gradient(rgba(238, 238, 238, 0.7) 39px, transparent -24px);
 	}
 	.homepage_joy_styling {
 	    display: inline;
