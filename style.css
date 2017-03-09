@@ -110,6 +110,22 @@ header img {
     padding: 4em;
 }
 
+#responsive-menu-container {
+	background-color: white;
+	text-align: center;
+}
+
+#responsive-menu-container #responsive-menu-wrapper  {
+    background-color: white;
+}
+
+#responsive-menu-container #responsive-menu li.responsive-menu-item.responsive-menu-current-item > .responsive-menu-item-link, #responsive-menu-container #responsive-menu li.responsive-menu-item .responsive-menu-item-link {
+    background-color: white;
+    color: #ff0099;
+    border: none;
+	font-size: 2em;
+	padding: 3.5%;
+}
 
 /*--- Home Page: Banner ---*/
 #homepage_banner_image {
