@@ -545,6 +545,28 @@ body > div.container > main > section:nth-child(7) {
 	    font-size: 3.5em;
 	    padding-left: 2%;
 	}
+	div.homepage_mission_statement > div.textwidget {
+	    height: 130px;
+	}
+	body > div.container > main > section:nth-child(3) > div > div > a {
+		margin-top: 6%;
+	    font-size: 1.5em;
+	    line-height: 27px;
+	}
+	section.our_story {
+	    background-image: linear-gradient(transparent 9px, #e6e6e6 10px);
+	}
+	body > div.container > main > section.row.our_story > div.seven.columns {
+		padding-top: 4%;
+	}
+	div.homepage_our_story_image > img {
+    	width: 110%;
+	}
+	div.homepage_our_story p {
+		font-size: 1em;
+    	line-height: 17px;
+    	margin-bottom: 2%;
+	}
 }
 
 @media (min-width: 740px) {
