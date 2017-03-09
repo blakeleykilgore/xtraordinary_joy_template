@@ -13,6 +13,12 @@ Text Domain: xtraordinary_joy_template
 @import url("css/normalize.css");
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@font-face {
+	font-family: 'Aenir-Next-Condensed-Bold';
+	src: url(http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/themes/xtraordinary_joy_template/fonts/Avenir-Next-Condensed.ttc);
+	font-weight: bold;
+}
 
 *{
 	color: #000000;
@@ -119,15 +125,19 @@ header img {
 }
 
 .homepage_banner .textwidget h4 {
-    text-align: center;
-    font-size: 2em;
-    color: #006699;
-    line-height: 34px;
+	text-align: center;
+	font-size: 1.7em;
+	color: #006699;
+	line-height: 34px;
+	font-family: 'Aenir-Next-Condensed-Bold';
+	padding: 0 15%;
+	letter-spacing: 2px;
 }
 
 .homepage_joy_styling {
     display: block;
     color: #ff0099;
+	font-family: 'Cookie', cursive;
     text-align: center;
     font-size: 2.5em;
     padding-top: 0.25em;
