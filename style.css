@@ -176,29 +176,30 @@ header img {
 
 .homepage_mission_statement p {
 	color: #ffffff;
-	padding: 1em;
+	padding: 5% 6%;
 	padding-bottom: 0;
-	font-size: 1.4em;
+	font-size: 1em;
 	letter-spacing: 2.5px;
-	line-height: 24px;
+	line-height: 18px;
 	font-family: 'Cabin Condensed', sans-serif;
 	font-weight: 400;
 }
 
 .homepage_mission_statement a {
-    padding: 0.75em;
-	display: block;
-	width: 50%;
-	margin: auto;
-	font-family: 'Cabin Condensed', sans-serif;
-	font-weight: 400;
-	font-size: 1em;
-	letter-spacing: 2.5px;
-	text-decoration: underline;
+	padding: 0.75em;
+    display: block;
+    width: 60%;
+    margin: 0px 20%;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    text-align: center;
 }
 
 div.homepage_mission_statement > div.textwidget {
 	padding-bottom: 5%;
+	height: 164px;
 }
 
 
@@ -546,12 +547,22 @@ body > div.container > main > section:nth-child(7) {
 	    padding-left: 2%;
 	}
 	div.homepage_mission_statement > div.textwidget {
-	    height: 130px;
+	    height: 70px;
+	}
+	div.homepage_mission_statement > div.textwidget {
+		height: 89px;
+	}
+	.homepage_mission_statement p {
+		padding: 3%;
+	}
+	.homepage_mission_statement a {
+	    margin: 0;
+		margin-top: 2%;
 	}
 	body > div.container > main > section:nth-child(3) > div > div > a {
-		margin-top: 6%;
-	    font-size: 1.5em;
-	    line-height: 27px;
+		margin-top: 3%;
+	    line-height: 17px;
+	    padding: 3% 5%;
 	}
 	section.our_story {
 	    background-image: linear-gradient(transparent 9px, #e6e6e6 10px);
