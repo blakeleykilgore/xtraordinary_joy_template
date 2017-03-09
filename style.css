@@ -13,12 +13,7 @@ Text Domain: xtraordinary_joy_template
 @import url("css/normalize.css");
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
-@import url('https://fonts.googleapis.com/css?family=Cookie');
-@font-face {
-	font-family: 'Aenir-Next-Condensed-Bold';
-	src: url(http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/themes/xtraordinary_joy_template/fonts/Avenir-Next-Condensed.ttc);
-	font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed|Cookie');
 
 *{
 	color: #000000;
@@ -129,9 +124,10 @@ header img {
 	font-size: 1.7em;
 	color: #006699;
 	line-height: 34px;
-	font-family: 'Aenir-Next-Condensed-Bold';
+	font-family: 'Cabin Condensed', sans-serif;
+	font-weight: 900;
 	padding: 0 15%;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 
 .homepage_joy_styling {
@@ -141,6 +137,7 @@ header img {
     text-align: center;
     font-size: 2.5em;
     padding-top: 0.25em;
+	padding-bottom: 15px;
 }
 
 .textwidget a {
@@ -148,6 +145,7 @@ header img {
     color: #ffffff;
     border: 1px solid white;
     border-radius: 4px;
+	display: none;
 }
 
 /*--- Home Page: Mission Statement ---*/
@@ -158,8 +156,14 @@ header img {
 }
 
 .homepage_mission_statement p {
-    color: #ffffff;
-    padding: 1em;
+	color: #ffffff;
+	padding: 1em;
+	padding-bottom: 0;
+	font-size: 1.4em;
+	letter-spacing: 2.5px;
+	line-height: 24px;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-weight: 400;
 }
 
 .homepage_mission_statement a {
@@ -167,6 +171,11 @@ header img {
 	display: block;
 	width: 50%;
 	margin: auto;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	letter-spacing: 2.5px;
+	text-decoration: underline;
 }
 
 div.homepage_mission_statement > div.textwidget {
