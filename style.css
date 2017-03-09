@@ -630,6 +630,34 @@ body > div.container > main > section:nth-child(7) {
 	div.homepage_upcoming_events {
 		margin-top: 5%;
 	}
+	.events-list-item {
+	    display: inline-block;
+	    width: 49%;
+	}
+	.events-list-title {
+		width: 99%;
+	    font-size: 1.5em;
+		margin-top: -326px;
+	}
+	.events-list-date {
+    	font-size: .8em;
+	}
+	.events-list-item .event-venue {
+		font-size: 3vw;
+	}
+	li.events-list-item > p > a {
+	    margin-top: 5%;
+	    margin-left: 2%;
+	    padding: 1%;
+	    border-radius: 2px;
+	    font-size: 3vw;
+	}
+	div.events-list-image {
+		height: 229px;
+	}
+	div.homepage_faces {
+		display: block;
+	}
 }
 
 @media (min-width: 740px) {
