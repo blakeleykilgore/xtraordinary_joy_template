@@ -71,11 +71,12 @@ header img {
 	text-transform: uppercase;
 }
 
-#menu-index_menu li a:hover {
+#menu-index_menu li a:hover,
+#menu-pages_menu li a:hover {
 	color: #cccccc;
 }
 
-#menu-item-64 > a, #menu-item-21 > a, #menu-item-22 > a, #menu-item-23 > a, #menu-item-24 > a, #menu-item-25 > a, #menu-item-100 > a {
+#menu-item-64 > a, #menu-item-21 > a, #menu-item-22 > a, #menu-item-23 > a, #menu-item-24 > a, #menu-item-25 > a, #menu-item-100 > a, #menu-item-68 > a, #menu-item-69 > a, #menu-item-70 > a, #menu-item-71 > a, #menu-item-72 > a, #menu-item-73 > a, #menu-item-101 > a, #menu-item-116 > a {
 	color: #ff0099;
 }
 
@@ -84,6 +85,30 @@ header img {
 	color: #ffffff;
     padding: 0.75em 3.5em;
 }
+
+#menu-pages_menu {
+    padding-top: 2em;
+}
+
+#menu-pages_menu li,
+#menu-footer_menu li {
+    display: inline;
+    padding-right: 0.5em;
+    text-transform: uppercase;
+}
+
+#menu-pages_menu li a {
+    color: #ff0099;
+}
+
+
+#menu-footer_menu {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    padding: 4em;
+}
+
 
 /*--- Home Page: Banner ---*/
 #homepage_banner_image {
@@ -350,4 +375,161 @@ div.events-list-image {
 	.container {
 	    width: 80%;
 	}
+}
+
+
+/*--- Partner Page ---*/
+.pages_banner {
+    background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/partner_banner.png');
+    padding: 5em;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 10px #8c8c8c;
+}
+
+.pages_banner h4,
+.pages_banner p,
+.pages_banner > .textwidget {
+    color: #ffffff;
+}
+
+.pages_banner h4,
+.pages_banner h3 {
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.pages_banner h3 {
+    font-size: 2em;
+}
+
+.pages_banner p,
+.pages_banner > .textwidget {
+    line-height: 22px;
+    margin-top: 2em;
+    width: 80%;
+    text-align: center;
+}
+
+.banner_button {
+    text-align: center;
+    padding: 1em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.banner_button:hover,
+.banner_button:hover {
+    color: #ff0099;
+    border-color: #ff0099;
+}
+
+.pages_banner > .textwidget > a {
+    display: block;
+    width: 30%;
+    margin: 2em auto 0;
+}
+
+#package_top {
+    margin-bottom: 5em;
+}
+
+#xtreme img,
+#xcaliber img,
+#xclusive img,
+#xcellence img {
+    width: 15%;
+}
+
+#sponsor_package_title {
+    text-align: center;
+    margin-top: 1em;
+    color: #006699;
+}
+
+.sponsor_package {
+    color: #ff0099;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+
+/*--- Volunteer Page ---*/
+.nf-form-title h3 {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+
+
+/*--- Contact Us ---*/
+.contact_info {
+    text-align: center;
+}
+
+.contact_info h4 {
+    color: #ff0099;
+    font-family: "Gochi Hand", cursive;
+    font-size: 3em;
+    margin-top: 1.5em;
+}
+
+.contact_info p {
+    font-size: 1.5em;
+}
+
+.contact_info p,
+#email {
+    color: #8c8c8c;
+}
+
+#email {
+    font-size: 1em;
+}
+
+#phone_number a {
+    color: #006699;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.contact_follow_us {
+	background-color: #006699;
+}
+
+.contact_follow_us h3 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.contact_follow_us > .textwidget {
+	color: #ffffff;
+	font-size: 1.2em;
+	width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-social_links-container {
+    width: 40%;
+    margin: auto;
+}
+
+#menu-social_links li {
+    display: inline;
+}
+
+#nf-field-4 {
+    background-color: #ff0099;
+    color: #ffffff;
+}
+
+
+/*--- Donate Page ---*/
+
+/*--- Footer ---*/
+footer {
+    background-color: #2b3e47;
 }

@@ -7,13 +7,18 @@
 			));
 		?>
 	</nav>
+</div>
 	<main>
 		<h2 class="display_none">Xtraordinary Joy Events Page</h2>
-		<section>
-	        <?php dynamic_sidebar('events-banner'); ?>
+		<section class="row">
+			<div class="twelve columns">
+	        	<?php dynamic_sidebar('events-banner'); ?>
+		</div>
 	    </section>
-		<section>
-	        <?php dynamic_sidebar('events-page-upcoming-events'); ?>
+		<section class="row">
+			<div class="twelve columns">
+	        	<?php dynamic_sidebar('events-page-upcoming-events'); ?>
+			</div>
 	    </section>
 	</main>
 <?php get_footer(); ?>

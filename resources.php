@@ -7,10 +7,13 @@
 			));
 		?>
 	</nav>
+</div>
 	<main>
 		<h2 class="display_none">Xtraordinary Joy Resources Page</h2>
-		<section>
-	        <?php dynamic_sidebar('resources-banner'); ?>
+		<section class="row">
+			<div class="twelve columns">
+	        	<?php dynamic_sidebar('resources-banner'); ?>
+			</div>
 	    </section>
 	</main>
 <?php get_footer(); ?>

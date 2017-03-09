@@ -1,6 +1,10 @@
-<section>
-    <?php dynamic_sidebar('contact-info'); ?>
+<section class="row">
+    <div class="twelve columns">
+        <?php dynamic_sidebar('contact-info'); ?>
+    </div>
 </section>
-<section>
-    <?php dynamic_sidebar('contact-social-info'); ?>
+<section class="row">
+    <div class="twelve columns">
+        <?php dynamic_sidebar('contact-social-info'); ?>
+    </div>
 </section>

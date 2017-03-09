@@ -19,11 +19,11 @@
 		<section>
 			<div class="row">
 				<div class="twelve columns">
-					<h3>Sponsorship Packages</h2>
+					<h3 id="sponsor_package_title">Sponsorship Packages</h2>
 				</div>
 			</div>
-			<div class="row">
-				<div class="six columns">
+			<div class="row" id="package_top">
+				<div class="six columns" id="xtreme">
 					<?php
 						$post_id = 75;
 						$queried_post = get_post($post_id);
@@ -32,7 +32,7 @@
 						echo $queried_post->post_content;
 					?>
 				</div>
-				<div class="six columns">
+				<div class="six columns" id="xcaliber">
 					<?php
 						$post_id = 79;
 						$queried_post = get_post($post_id);
@@ -43,7 +43,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="six columns">
+				<div class="six columns" id="xclusive">
 					<?php
 						$post_id = 83;
 						$queried_post = get_post($post_id);
@@ -52,7 +52,7 @@
 						echo $queried_post->post_content;
 					?>
 				</div>
-				<div class="six columns">
+				<div class="six columns" id="xcellence">
 					<?php
 						$post_id = 81;
 						$queried_post = get_post($post_id);
@@ -64,7 +64,7 @@
 			</div>
 		</section>
 		<section class="row">
-			<div class="twelve columns">
+			<div class="twelve columns" id="view_events">
 		        <h3><a href="http://www.blakeleykilgore.com/xtraordinaryjoy/upcoming_events">View Upcoming Events</a></h3>
 			</div>
 	    </section>
