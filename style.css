@@ -140,7 +140,7 @@ header img {
 
 .homepage_banner .textwidget h4 {
 	text-align: center;
-	font-size: 1.7em;
+	font-size: 6vw;
 	color: #006699;
 	line-height: 34px;
 	font-family: 'Cabin Condensed', sans-serif;
@@ -505,6 +505,45 @@ body > div.container > main > section:nth-child(7) {
 	}
 	#homepage_banner_image {
 		margin-top: -3%;
+	}
+}
+
+@media (min-width: 550px) {
+	nav {
+		padding-bottom: 2%;
+	}
+	header img {
+	    border-radius: 5px 5px 17px 17px;
+	    background-color: white;
+	}
+	#menu-index_menu li a {
+	    font-size: 1.5vw;
+	}
+	#menu-index_menu li {
+	    display: inline-block;
+		padding: 2% 0% 2% 2%;
+	}
+	#menu-item-115 {
+		padding-left: 0;
+	}
+	#menu-item-115 > a {
+		padding: 7px;
+    	padding-left: 7px;
+	}
+	.homepage_banner .textwidget h4 {
+		position: absolute;
+	    margin-top: -13.5%;
+	    font-size: 3vw;
+	    width: 100%;
+	    padding: 0;
+	    background-color: rgba(255, 255, 255, 0.7);
+	    padding-bottom: 3.5%;
+	    padding-top: 4%;
+	}
+	.homepage_joy_styling {
+	    display: inline;
+	    font-size: 3.5em;
+	    padding-left: 2%;
 	}
 }
 
