@@ -295,6 +295,7 @@ section.our_fundraising {
 	position: absolute;
 	width: 23%;
 	margin-top: -11%;
+	padding-left: 1%;
 }
 
 #campaign-103 > a > h3 {
@@ -306,6 +307,12 @@ section.our_fundraising {
 	width: 94%;
 	margin-top: 65px;
 	text-align: center;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	letter-spacing: 1px;
+	color: #595959;
+	line-height: 20px;
 }
 
 #campaign-103 {
@@ -318,11 +325,17 @@ section.our_fundraising {
 	margin-left: 14%;
 	font-size: 2em;
 	text-align: center;
-	line-height: 28px;
+	line-height: 29px;
+	color: #13709f;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-weight: 800;
+	letter-spacing: 1.5px;
 }
 
 .amount, .goal-amount {
 	font-size: 1em;
+	color: #ff0098;
+	font-family: 'KTF-Roadstar';
 }
 
 #campaign-103 > div.campaign-progress-bar {
