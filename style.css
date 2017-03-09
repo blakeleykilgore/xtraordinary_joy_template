@@ -205,11 +205,14 @@ section.icon_links {
 }
 
 section.icon_links > div a{
-color: #ff0099;
-font-size: 3vw;
-text-transform: uppercase;
-margin: 2%;
-padding: 5em;
+	color: #ff0099;
+    text-transform: uppercase;
+    margin: 2%;
+    padding: 5em;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    letter-spacing: 1.5px;
 }
 
 section.row.icon_links > div:nth-child(1) a {
@@ -231,7 +234,7 @@ section.row.icon_links > div:nth-child(2) a {
 	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: center top;
-	padding-top: 105px;
+	padding-top: 109px;
 }
 
 section.row.icon_links > div:nth-child(3) a {
@@ -239,7 +242,7 @@ section.row.icon_links > div:nth-child(3) a {
 	background-size: 61px;
 	background-repeat: no-repeat;
 	background-position: center top;
-	padding-top: 105px;
+	padding-top: 109px;
 }
 
 /*--- Home Page: Our Story ---*/
