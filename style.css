@@ -14,6 +14,10 @@ Text Domain: xtraordinary_joy_template
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 @import url('https://fonts.googleapis.com/css?family=Cabin+Condensed|Cookie');
+@font-face {
+	font-family: 'KTF-Roadstar';
+	src: url(http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/themes/xtraordinary_joy_template/fonts/KTF-Roadstar.ttf);
+}
 
 *{
 	color: #000000;
@@ -251,6 +255,7 @@ section.our_story {
 }
 
 .homepage_our_story h3 {
+	font-family: 'KTF-Roadstar';
     border-bottom: 1px solid #006699;
     width: 4em;
 	margin: 5%;
@@ -264,7 +269,12 @@ section.our_story {
 .homepage_our_story p {
 	margin: 5%;
 	margin-bottom: 15%;
-	line-height: 25px;
+	line-height: 32px;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-weight: 800;
+	font-size: 1.5em;
+	letter-spacing: 1.5px;
+	color: #595959;
 }
 
 div.homepage_our_story_image > img {
