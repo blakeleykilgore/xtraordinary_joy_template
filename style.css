@@ -36,7 +36,6 @@ Text Domain: xtraordinary_joy_template
 }
 
 h3 {
-    font-family: 'Gochi Hand', cursive;
     color: #ff0099;
     font-size: 3em;
 }
@@ -384,9 +383,43 @@ span.event-venue {
 div.homepage_upcoming_events {
 	    margin-top: 10%;
 }
+
+div.homepage_upcoming_events h3 {
+	color: #006699;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 15%;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-weight: 900;
+}
+
 div.events-list-image {
-	position: absolute;
-    z-index: -1000;
+	position: relative;
+	z-index: -1000;
+	width: 100%;
+	position: relative;
+	height: 234px;
+	overflow: hidden;
+	margin-bottom: 113px;
+}
+
+div.events-list-image img {
+	filter: brightness(.4);
+    -webkit-filter: brightness(.4);
+}
+
+.events-list-title {
+    margin-bottom: 6px;
+    margin-top: -240px;
+	margin-top: -89%;
+}
+
+.events-list-item {
+    margin-bottom: 150px;
+}
+
+div.homepage_faces {
+	margin-top: 10%;
 }
 
 @media (min-width: 400px) {
