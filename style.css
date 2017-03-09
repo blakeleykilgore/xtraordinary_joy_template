@@ -190,11 +190,18 @@ section.our_story {
 .homepage_our_story h3 {
     border-bottom: 1px solid #006699;
     width: 4em;
+	margin: 5%;
 }
 
 .homepage_our_story img {
     border: 1.5em solid #ffffff;
     border-radius: 50%;
+}
+
+.homepage_our_story p {
+	margin: 5%;
+	margin-bottom: 15%;
+	line-height: 25px;
 }
 
 div.homepage_our_story_image > img {
