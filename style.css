@@ -587,6 +587,9 @@ body > div.container > main > section:nth-child(7) {
     	line-height: 18px;
     	margin-bottom: 2%;
 	}
+	.our_fundraising img {
+		width: 22%;
+	}
 	section.our_fundraising div.six.columns{
 		margin: -3% 0 0 10%;
 	}
@@ -606,10 +609,10 @@ body > div.container > main > section:nth-child(7) {
 	    margin-left: 42%;
 	}
 	#campaign-103 > div.campaign-description {
-	    width: 80%;
-	    margin-top: 56px;
+		width: 83%;
+		margin-top: 56px;
 		font-size: .7em;
-		margin-left: 24%;
+		margin-left: 22%;
 	}
 	#campaign-103 > div.campaign-progress-bar {
     	width: 89%;
@@ -637,10 +640,11 @@ body > div.container > main > section:nth-child(7) {
 	.events-list-title {
 		width: 99%;
 	    font-size: 1.5em;
-		margin-top: -326px;
+		margin-top: -300px;
 	}
 	.events-list-date {
-    	font-size: .8em;
+    	font-size: 2.3vw;
+		letter-spacing: 1px;
 	}
 	.events-list-item .event-venue {
 		font-size: 3vw;
@@ -653,7 +657,7 @@ body > div.container > main > section:nth-child(7) {
 	    font-size: 3vw;
 	}
 	div.events-list-image {
-		height: 229px;
+		height: 196px;
 	}
 	div.homepage_faces {
 		display: block;
