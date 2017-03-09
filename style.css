@@ -397,8 +397,8 @@ div.events-list-image {
 	position: relative;
 	z-index: -1000;
 	width: 100%;
+	height: 245px;
 	position: relative;
-	height: 234px;
 	overflow: hidden;
 	margin-bottom: 113px;
 }
@@ -410,7 +410,7 @@ div.events-list-image img {
 
 .events-list-title {
 	margin-bottom: 6px;
-	margin-top: -84%;
+	margin-top: -340px;
 	margin-left: 4%;
 }
 
@@ -457,7 +457,7 @@ li.events-list-item > p > a {
 }
 
 .events-list-item {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 div.homepage_faces {
@@ -467,14 +467,6 @@ div.homepage_faces {
 @media (min-width: 400px) {
 	.container {
 		width: 100%;
-	}
-	div.homepage_upcoming_events > ul.events-list li {
-		width: 47%;
-	    display: inline-block;
-		padding: 10% 0 10% 2%;
-	}
-	.events-list-item .event-venue {
-		font-size: 0.7em;
 	}
 	section.icon_links > div a{
 		padding: 0;
