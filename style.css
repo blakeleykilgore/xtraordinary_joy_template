@@ -459,9 +459,19 @@ li.events-list-item > p > a {
 .events-list-item {
     margin-bottom: 100px;
 }
+body > div.container > main > section:nth-child(7) > div > a {
+	display: none;
+}
 
+/*--- Home Page: Faces of Joy ---*/
 div.homepage_faces {
-	margin-top: 10%;
+	display: none;
+}
+
+@media (max-width: 340px) {
+	body > div.container > main > section:nth-child(7) {
+		margin-bottom: -15px;
+	}
 }
 
 @media (min-width: 400px) {
