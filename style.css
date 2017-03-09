@@ -583,8 +583,8 @@ body > div.container > main > section:nth-child(7) {
     	width: 110%;
 	}
 	div.homepage_our_story p {
-		font-size: 1em;
-    	line-height: 17px;
+		font-size: 1.2em;
+    	line-height: 18px;
     	margin-bottom: 2%;
 	}
 	section.our_fundraising div.six.columns{
@@ -657,6 +657,30 @@ body > div.container > main > section:nth-child(7) {
 	}
 	div.homepage_faces {
 		display: block;
+		background-image: url("images/background.png");
+		background-size: 100%;
+	}
+	div.homepage_faces h3 {
+		color: white;
+		border-bottom: 1px solid #ff0099;
+		padding: 2%;
+		margin: 0 7%;
+		font-family: 'Cabin Condensed', sans-serif;
+	    letter-spacing: 2px;
+	    font-weight: 900;
+		font-size: 2em;
+    	text-align: center;
+	}
+	#menu-item-54, #menu-item-53, #menu-item-52, #menu-item-51 {
+		background-color: white;
+	border-radius: 50%;
+	width: 5%;
+	padding: 7%;
+	display: inline-block;
+	margin: 2%;
+	}
+	div.homepage_faces ul {
+		padding-left: 6%;
 	}
 }
 
