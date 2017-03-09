@@ -618,8 +618,17 @@ body > div.container > main > section:nth-child(7) {
 		display: block;
 	}
 	#donations_text {
-	    padding-left: 5%;
+		padding-left: 5%;
 	    margin-left: 3%;
+	    padding-top: 12%;
+	    padding-bottom: 11%;
+	    margin-top: -33%;
+	}
+	div.homepage_upcoming_events h3 {
+		margin-top: 0;
+	}
+	div.homepage_upcoming_events {
+		margin-top: 5%;
 	}
 }
 
