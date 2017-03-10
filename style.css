@@ -698,9 +698,55 @@ body > div.container > main > section:nth-child(7) {
 /*--- Partner Page ---*/
 .pages_banner {
     background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/partner_banner.png');
-    padding: 5em;
+    padding: 5em 0;
     width: 100%;
     height: 100%;
+    box-shadow: 1px 1px 10px #8c8c8c;
+}
+
+#volunteer_banner_container {
+    background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/volunteer_banner.png');
+    padding: 5em 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 10px #8c8c8c;
+}
+
+#partner_banner_container {
+    background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/partner_banner_04.png');
+    background-position: center;
+    padding: 5em 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 10px #8c8c8c;
+}
+
+#events_banner_container {
+    background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/events_banner_03.png');
+    background-position: center;
+    padding: 5em 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 10px #8c8c8c;
+}
+
+#contact_banner_container {
+    background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/contact_xsm_banner.png');
+    background-repeat: no-repeat;
+    padding: 5em 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    box-shadow: 1px 1px 10px #8c8c8c;
+}
+
+#donate_banner_container {
+    background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/donate_banner.png');
+    background-repeat: no-repeat;
+    padding: 5em 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
     box-shadow: 1px 1px 10px #8c8c8c;
 }
 
