@@ -718,6 +718,9 @@ body > div.container > main > section:nth-child(7) {
 	.container {
 	    width: 80%;
 	}
+	.homepage_joy_styling {
+    padding-top: 10%;
+	}
 }
 
 
