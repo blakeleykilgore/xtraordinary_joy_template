@@ -136,6 +136,8 @@ header img {
 	position: relative;
 	z-index: -1000;
 	margin-top: -8%;
+	opacity: 0.9;
+	border-radius: 10px;
 }
 
 .homepage_banner .textwidget h4 {
@@ -487,7 +489,7 @@ body > div.container > main > section:nth-child(7) {
 /*--- Home Page Media Queries ---*/
 @media (min-width: 400px) {
 	.container {
-		width: 100%;
+		max-width: 100%;
 	}
 	section.icon_links > div a{
 		padding: 0;
@@ -565,12 +567,14 @@ body > div.container > main > section:nth-child(7) {
 	    margin-left: 39%;
 	    padding: 2%;
 		border: 4px solid white;
+		background-color: rgba(238, 238, 238, 0.4);
 	}
 	div.homepage_mission_statement > div.textwidget {
 	    height: 70px;
 	}
 	div.homepage_mission_statement > div.textwidget {
 		height: 89px;
+		box-shadow: 1px 1px 10px rgba(25, 36, 48, 0.4);
 	}
 	.homepage_mission_statement p {
 		padding: 3%;
@@ -671,7 +675,7 @@ body > div.container > main > section:nth-child(7) {
 		height: 210px;
 	}
 	ul.events-list {
-    margin-bottom: 0%;
+    	margin-bottom: 0%;
 	}
 	body > div.container > main > section:nth-child(7) > div > a {
 		margin-top: 0;
@@ -702,11 +706,11 @@ body > div.container > main > section:nth-child(7) {
 	}
 	#menu-item-54, #menu-item-53, #menu-item-52, #menu-item-51 {
 		background-color: white;
-	border-radius: 50%;
-	width: 5%;
-	padding: 7%;
-	display: inline-block;
-	margin: 2%;
+		border-radius: 50%;
+		width: 5%;
+		padding: 7%;
+		display: inline-block;
+		margin: 2%;
 	}
 	div.homepage_faces ul {
 		padding-left: 6%;
@@ -716,7 +720,7 @@ body > div.container > main > section:nth-child(7) {
 
 @media (min-width: 750px) {
 	.homepage_joy_styling {
-    padding-top: 10%;
+    	padding-top: 10%;
 	}
 	.homepage_mission_statement p {
 		font-size: 1.2em;
