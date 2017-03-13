@@ -762,6 +762,36 @@ body > div.container > main > section:nth-child(7) {
 		margin-top: -29%;
 	    font-size: 2em;
 	}
+	section.row.our_fundraising > div.six.columns > a {
+	    margin-top: 8%;
+	}
+	#campaign-103 > div.campaign-description {
+		margin-left: 24%;
+	}
+	.homepage_mission_statement p {
+	    font-size: 1.6em;
+	    line-height: 26px;
+	}
+	div.homepage_mission_statement > div.textwidget {
+	    height: 105px;
+	}
+	body > div.container > main > section:nth-child(3) > div > div > a {
+		line-height: 23px;
+		font-size: 1.7em;
+	}
+	div.homepage_our_story p {
+	    font-size: 1.6em;
+	    line-height: 28px;
+	}
+	#donations_text > p {
+		font-size: 1.1em;
+	}
+	.events-list-title a {
+		font-size: 1.2em;
+	}
+	body > div.container > main > section:nth-child(7) > div > a {
+    	margin-top: 3%;
+	}
 }
 
 
