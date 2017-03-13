@@ -763,7 +763,7 @@ body > div.container > main > section:nth-child(7) {
 	    font-size: 2em;
 	}
 	section.row.our_fundraising > div.six.columns > a {
-	    margin-top: 8%;
+	    margin-top: 12%;
 	}
 	#campaign-103 > div.campaign-description {
 		margin-left: 24%;
@@ -792,7 +792,26 @@ body > div.container > main > section:nth-child(7) {
 	body > div.container > main > section:nth-child(7) > div > a {
     	margin-top: 3%;
 	}
+	div.events-list-image {
+	    height: 250px;
+	}
+	.events-list-title {
+		margin-top: -325px;
+	}
 }
+@media screen and (min-width: 1220px) {
+	nav.nine.columns {
+		margin-left: 4%;
+		margin-bottom: 2%;
+	}
+	#menu-index_menu li a {
+	    font-size: 1.2vw;
+	}
+	.homepage_banner .textwidget h4 {
+		font-size: 2.7vw;
+	}
+}
+
 
 
 /*--- Partner Page ---*/
