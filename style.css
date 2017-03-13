@@ -585,7 +585,7 @@ body > div.container > main > section:nth-child(7) {
 	    padding: 3% 5%;
 	}
 	section.our_story {
-	    background-image: linear-gradient(transparent 9px, #e6e6e6 10px);
+	    background-image: linear-gradient(transparent 50px, #e6e6e6 50px, transparent);
 	}
 	body > div.container > main > section.row.our_story > div.seven.columns {
 		padding-top: 4%;
