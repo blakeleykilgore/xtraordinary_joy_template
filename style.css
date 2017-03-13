@@ -887,6 +887,7 @@ body > div.container > main > section:nth-child(7) {
     height: 100%;
     background-position: center;
     box-shadow: 1px 1px 10px #8c8c8c;
+	text-align: center;
 }
 
 .pages_banner h4,
