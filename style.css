@@ -833,8 +833,7 @@ body > div.container > main > section:nth-child(7) {
 }
 
 
-
-/*--- Partner Page ---*/
+/*--- Page Banners ---*/
 .pages_banner {
     background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/partner_banner.png');
     padding: 5em 0;
@@ -953,6 +952,8 @@ body > div.container > main > section:nth-child(7) {
     margin: 2em auto 0;
 }
 
+
+/* -- Partner Page -- */
 #package_top {
     margin-bottom: 5em;
 }
