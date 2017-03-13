@@ -717,6 +717,7 @@ body > div.container > main > section:nth-child(7) {
 @media (min-width: 750px) {
 	.container {
 	    width: 85%;
+		box-shadow: 1px 1px 10px rgba(140, 140, 140, 0.31);
 	}
 	.homepage_joy_styling {
     padding-top: 10%;
