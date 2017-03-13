@@ -998,6 +998,15 @@ body > div.container > main > section:nth-child(7) {
     font-weight: 700;
 }
 
+#follow-us-container img {
+	float: left;
+	position: absolute;
+	width: 35%;
+	top: 570px;
+	left: 7px;
+	right: 0px;
+}
+
 .contact_follow_us {
 	background-color: #006699;
 }
