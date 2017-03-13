@@ -833,8 +833,7 @@ body > div.container > main > section:nth-child(7) {
 }
 
 
-
-/*--- Partner Page ---*/
+/*--- Page Banners ---*/
 .pages_banner {
     background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/partner_banner.png');
     padding: 5em 0;
@@ -887,6 +886,24 @@ body > div.container > main > section:nth-child(7) {
     height: 100%;
     background-position: center;
     box-shadow: 1px 1px 10px #8c8c8c;
+	text-align: center;
+}
+
+.twelve.columns h2 {
+	text-align: center;
+	color: #006699;
+	margin-top: 1em;
+}
+
+.campaign-description {
+	text-align: center;
+	font-size: 1.5em;
+	margin: 1em 0 2em;
+}
+
+.campaign-summary .campaign-raised span,
+.campaign-figures .campaign-summary-item span {
+	font-size: 2.5em;
 }
 
 .pages_banner h4,
@@ -935,6 +952,8 @@ body > div.container > main > section:nth-child(7) {
     margin: 2em auto 0;
 }
 
+
+/* -- Partner Page -- */
 #package_top {
     margin-bottom: 5em;
 }
@@ -996,6 +1015,37 @@ body > div.container > main > section:nth-child(7) {
     color: #006699;
     font-size: 1.3em;
     font-weight: 700;
+}
+
+#follow-us-container {
+	text-align: center;
+}
+
+#follow-us-container img {
+	width: 25%;
+	margin-bottom: -4em;
+}
+
+@media (min-width: 500px) {
+	#follow-us-container img {
+		width: 20%;
+	}
+}
+
+@media (min-width: 950px) {
+	#follow-us-container {
+		text-align: left;
+	}
+
+	#follow-us-container img {
+	float: left;
+	position: absolute;
+	width: 35%;
+	top: 570px;
+	left: 7px;
+	right: 0px;
+	max-width: 275px;
+	}
 }
 
 .contact_follow_us {
