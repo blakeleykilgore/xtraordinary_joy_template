@@ -890,6 +890,23 @@ body > div.container > main > section:nth-child(7) {
 	text-align: center;
 }
 
+.twelve.columns h2 {
+	text-align: center;
+	color: #006699;
+	margin-top: 1em;
+}
+
+.campaign-description {
+	text-align: center;
+	font-size: 1.5em;
+	margin: 1em 0 2em;
+}
+
+.campaign-summary .campaign-raised span,
+.campaign-figures .campaign-summary-item span {
+	font-size: 2.5em;
+}
+
 .pages_banner h4,
 .pages_banner p,
 .pages_banner > .textwidget {
