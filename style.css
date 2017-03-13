@@ -463,12 +463,12 @@ li.events-list-item > p > a {
 
 body > div.container > main > section:nth-child(7) > div > a {
 	display: block;
-    width: 29%;
     margin: 13% auto;
-    padding: 4%;
-    background-color: blue;
+    padding: 5%;
+    background-color: #ff0099;
     color: white;
-	text-align: center;
+    text-align: center;
+    border-radius: 5px;
 }
 
 ul.events-list {
@@ -669,6 +669,19 @@ body > div.container > main > section:nth-child(7) {
 	}
 	div.events-list-image {
 		height: 196px;
+	}
+	ul.events-list {
+    margin-bottom: 0%;
+	}
+	body > div.container > main > section:nth-child(7) > div > a {
+		margin-top: 0;
+		padding: 3%;
+	    font-size: 1.2em;
+	    background-color: #ffffff;
+	    color: #ff0099;
+	    border: 6px solid;
+	    border-radius: 15px;
+	    width: 29%;
 	}
 	div.homepage_faces {
 		display: block;
