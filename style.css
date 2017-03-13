@@ -798,6 +798,22 @@ body > div.container > main > section:nth-child(7) {
 	.events-list-title {
 		margin-top: -325px;
 	}
+	div.homepage_upcoming_events {
+	    margin-top: 10%;
+	}
+}
+@media screen and (min-width: 1050px) {
+	#campaign-103 > div.campaign-donation-stats {
+	    margin-top: -27%;
+	    font-size: 2.3em;
+	    line-height: 34px;
+	}
+	section.row.our_fundraising > div.six.columns > a {
+	    margin-top: 7%;
+	}
+	body > div.container > main > section:nth-child(7) > div > a {
+	    margin-top: 5%;
+	}
 }
 @media screen and (min-width: 1220px) {
 	nav.nine.columns {
@@ -809,6 +825,9 @@ body > div.container > main > section:nth-child(7) {
 	}
 	.homepage_banner .textwidget h4 {
 		font-size: 2.7vw;
+	}
+	div.events-list-image {
+	    height: 320px;
 	}
 }
 
