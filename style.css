@@ -998,13 +998,35 @@ body > div.container > main > section:nth-child(7) {
     font-weight: 700;
 }
 
+#follow-us-container {
+	text-align: center;
+}
+
 #follow-us-container img {
+	width: 25%;
+	margin-bottom: -4em;
+}
+
+@media (min-width: 500px) {
+	#follow-us-container img {
+		width: 20%;
+	}
+}
+
+@media (min-width: 950px) {
+	#follow-us-container {
+		text-align: left;
+	}
+
+	#follow-us-container img {
 	float: left;
 	position: absolute;
 	width: 35%;
 	top: 570px;
 	left: 7px;
 	right: 0px;
+	max-width: 275px;
+	}
 }
 
 .contact_follow_us {
