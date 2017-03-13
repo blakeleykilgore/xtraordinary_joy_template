@@ -714,12 +714,53 @@ body > div.container > main > section:nth-child(7) {
 	}
 }
 
-@media (min-width: 770px) {
+@media (min-width: 750px) {
 	.container {
-	    width: 80%;
+	    width: 85%;
 	}
 	.homepage_joy_styling {
     padding-top: 10%;
+	}
+	.homepage_mission_statement p {
+		font-size: 1.2em;
+	}
+	.homepage_mission_statement a {
+		font-size: 1.3em;
+	}
+	div.homepage_mission_statement > div > p {
+		margin-bottom: 0;
+	}
+	section.icon_links {
+	    margin-bottom: 3%;
+	}
+	.campaign-grid-2 .campaign.hentry, .campaign-grid-2 li.campaign {
+	    width: 95%;
+		margin-top: 0;
+	}
+	#campaign-103 > div.campaign-progress-bar {
+		margin-top: 0;
+	}
+	#campaign-103 > div.campaign-donation-stats {
+		width: 100%;
+		margin-top: -32%;
+		margin-left: 13%;
+		font-size: 1.7em;
+	}
+	#campaign-103 > div.campaign-description {
+		width: 83%;
+	    margin-top: 43px;
+	    font-size: 1.1em;
+	    margin-left: 21%;
+	}
+	section.row.our_fundraising > div.six.columns > a {
+		margin-top: 14%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	#campaign-103 > div.campaign-donation-stats {
+		margin-top: -29%;
+	    font-size: 2em;
 	}
 }
 
