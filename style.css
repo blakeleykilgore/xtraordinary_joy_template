@@ -52,7 +52,7 @@ header {
 header img {
     width: 55%;
 	padding: 3%;
-	box-shadow: 10px 10px 5px rgba(136, 136, 136, 0.19);
+	box-shadow: 5px 5px 10px rgba(136, 136, 136, 0.19);
 	border-radius: 5px 5px 25px 25px;
 	margin-bottom: 5%;
 }
@@ -131,22 +131,24 @@ header img {
 }
 
 /*--- Home Page: Banner ---*/
+.homepage_banner .textwidget {
+	margin-bottom: 45px;
+}
 #homepage_banner_image {
 	width: 100%;
 	position: relative;
 	z-index: -1000;
-	margin-top: -8%;
 	opacity: 0.9;
 	border-radius: 10px;
 }
 
 .homepage_banner .textwidget h4 {
 	text-align: center;
-	font-size: 6vw;
+	font-size: 1.5em;
 	color: #006699;
 	line-height: 34px;
 	font-family: 'Cabin Condensed', sans-serif;
-	font-weight: 900;
+	font-weight: 800;
 	padding: 0 15%;
 	letter-spacing: 3px;
 }
@@ -155,10 +157,8 @@ header img {
     display: block;
     color: #ff0099;
 	font-family: 'Cookie', cursive;
-    text-align: center;
     font-size: 2.5em;
     padding-top: 0.25em;
-	padding-bottom: 15px;
 }
 
 .textwidget a {
@@ -172,19 +172,13 @@ header img {
 /*--- Home Page: Mission Statement ---*/
 .homepage_mission_statement {
     background: repeating-linear-gradient(45deg, rgba(0, 102, 153, 0.5), rgba(0, 102, 153, 0.5) 3px, rgba(0, 102, 153, 0.6) 3px, rgba(0, 102, 153, 0.6) 7px);
-    color: #ffffff;
-    font-size: 1.2em;
+	letter-spacing: 1px;
 }
 
 .homepage_mission_statement p {
 	color: #ffffff;
-	padding: 5% 6%;
-	padding-bottom: 0;
-	font-size: 1em;
-	letter-spacing: 2.5px;
+	padding: 5% 6% 0 6%;
 	line-height: 18px;
-	font-family: 'Cabin Condensed', sans-serif;
-	font-weight: 400;
 }
 
 .homepage_mission_statement a {
@@ -192,10 +186,6 @@ header img {
     display: block;
     width: 60%;
     margin: 0px 20%;
-    font-family: 'Cabin Condensed', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-    letter-spacing: 1.5px;
     text-align: center;
 }
 
@@ -204,10 +194,9 @@ div.homepage_mission_statement > div.textwidget {
 	height: 164px;
 }
 
-
 /*--- Home Page: Quick Links ---*/
 section.icon_links {
-	margin-bottom: 10%;
+	margin-bottom: 45px;
 }
 
 section.icon_links > div a{
@@ -217,8 +206,12 @@ section.icon_links > div a{
     padding: 5em;
     font-family: 'Cabin Condensed', sans-serif;
     font-weight: 800;
-    font-size: 1em;
     letter-spacing: 1.5px;
+}
+
+section.icon_links div {
+	text-align: center;
+	padding-top: 10em;
 }
 
 section.row.icon_links > div:nth-child(1) a {
@@ -228,12 +221,6 @@ section.row.icon_links > div:nth-child(1) a {
 	background-position: center top;
 	padding-top: 100px;
 }
-
-section.icon_links div {
-	text-align: center;
-	padding-top: 10em;
-}
-
 
 section.row.icon_links > div:nth-child(2) a {
 	background: url("http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/sun_icon.png");
@@ -253,13 +240,14 @@ section.row.icon_links > div:nth-child(3) a {
 
 /*--- Home Page: Our Story ---*/
 section.our_story {
-    background-image: linear-gradient(transparent 237px, #e6e6e6 10px);
+    background-image: linear-gradient(transparent 200px, #e6e6e6 10px);
+	margin-bottom: 45px;
 }
 
 .homepage_our_story h3 {
 	font-family: 'KTF-Roadstar';
-    border-bottom: 1px solid #006699;
-    width: 4em;
+    border-bottom: 3px solid #006699;
+    width: 60%;
 	margin: 5%;
 }
 
@@ -270,12 +258,8 @@ section.our_story {
 
 .homepage_our_story p {
 	margin: 5%;
-	margin-bottom: 15%;
-	line-height: 32px;
 	font-family: 'Cabin Condensed', sans-serif;
-	font-weight: 800;
-	font-size: 1.5em;
-	letter-spacing: 1.5px;
+	letter-spacing: 1px;
 	color: #595959;
 }
 
@@ -286,52 +270,45 @@ div.homepage_our_story_image > img {
 
 /*--- Home Page: Our Fundraising (Widget) ---*/
 #campaign-103 > div.campaign-donation {
-	display:none;
-}
-
-section.our_fundraising {
-	margin-top: 20%;
-}
-
-.our_fundraising img {
-	position: absolute;
-	width: 23%;
-	margin-top: -11%;
-	padding-left: 1%;
+	display: none;
 }
 
 #campaign-103 > a > h3 {
 	display: none;
 }
 
-#campaign-103 > div.campaign-description {
-	position: absolute;
-	width: 94%;
-	margin-top: 65px;
-	text-align: center;
-	font-family: 'Cabin Condensed', sans-serif;
-	font-weight: 600;
-	font-size: 1em;
-	letter-spacing: 1px;
-	color: #595959;
-	line-height: 20px;
-}
-
 #campaign-103 {
 	border: none;
 }
 
+.our_fundraising img {
+	position: absolute;
+	width: 25%;
+	padding-left: 1%;
+}
+
+#campaign-103 > div.campaign-description {
+	position: absolute;
+    margin-top: 100px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #595959;
+    line-height: 18px;
+    padding: 0 27px;
+}
+
 #campaign-103 > div.campaign-donation-stats {
 	position: absolute;
-	margin-top: -29%;
-	margin-left: 14%;
-	font-size: 2em;
+	margin-top: -95px;
+	margin-left: 15%;
+	font-size: 1.5em;
+	letter-spacing: 1.5px;
+	font-weight: 800;
 	text-align: center;
-	line-height: 29px;
+	line-height: 24px;
 	color: #13709f;
 	font-family: 'Cabin Condensed', sans-serif;
-	font-weight: 800;
-	letter-spacing: 1.5px;
 }
 
 .amount, .goal-amount {
@@ -341,21 +318,21 @@ section.our_fundraising {
 }
 
 #campaign-103 > div.campaign-progress-bar {
-    width: 75%;
-    margin-left: 25%;
-	height: 30px;
-	margin-top: 6%;
-	border-radius: 40px;
+	width: 75%;
+    height: 30px;
+    border-radius: 40px;
+	margin-left: auto;
+	margin-top: 45px;
 }
 
 section.row.our_fundraising > div.six.columns > a {
 	display: block;
 	text-align: center;
 	border-radius: 5px;
-	margin-top: 8%;
 	color: white;
 	background-color: #006699;
 	padding: 5%;
+	margin-top: 45px;
 }
 
 /*--- Home Page: Our Fundraising (Description) ---*/
@@ -365,7 +342,7 @@ article.homepage_research {
 
 #donations_title {
     color: #006699;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 #donations_text {
@@ -383,27 +360,21 @@ span.event-venue {
 	display: block;
 }
 
-div.homepage_upcoming_events {
-	    margin-top: 10%;
-}
-
 div.homepage_upcoming_events h3 {
 	color: #006699;
-    letter-spacing: 5px;
-    text-align: center;
-    margin-top: 15%;
-	font-family: 'Cabin Condensed', sans-serif;
-	font-weight: 900;
+	font-weight: 800;
+	text-align: center;
+	font-family: 'KTF-Roadstar', sans-serif;
+	margin-top: 50px;
 }
 
 div.events-list-image {
 	position: relative;
 	z-index: -1000;
 	width: 100%;
-	height: 245px;
-	position: relative;
+	height: 235px;
 	overflow: hidden;
-	margin-bottom: 113px;
+	margin-bottom: 115px;
 }
 
 div.events-list-image img {
@@ -412,60 +383,55 @@ div.events-list-image img {
 }
 
 .events-list-title {
-	margin-bottom: 6px;
-	margin-top: -340px;
+	margin-top: -330px;
 	margin-left: 4%;
 }
 
 .events-list-title a {
 	color: white;
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: 'Cabin Condensed', sans-serif;
-    font-weight: 700;
-    letter-spacing: 5px;
-    line-height: 37px;
+    letter-spacing: 1px;
+    line-height: 24px;
 }
 
 .events-list-date {
-	font-size: 4vw;
-	color: #5c98b7;
+	font-size: 1em;
+	color: #85cef5;
 	font-family: 'Cabin Condensed', sans-serif;
-	letter-spacing: 3px;
-	font-weight: 600;
+	letter-spacing: 1.5px;
 	margin-left: 4%;
 }
 
 .events-list-item .event-venue {
 	color: white;
-	font-family: 'Cabin Condensed', sans-serif;
-	letter-spacing: 3px;
-	font-weight: 600;
-	line-height: 24px;
-	font-size: 4vw;
+    font-family: 'Cabin Condensed', sans-serif;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-size: 0.7em;
 }
 
 li.events-list-item > p > a {
 	position: absolute;
-    margin-top: 11%;
-    margin-left: 5%;
-    color: #ff0099;
-    border: 3px solid #ff0099;
-    padding: 5%;
-    border-radius: 8px;
-    font-family: 'Cabin Condensed', sans-serif;
-    letter-spacing: 2px;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 6vw;
+	margin-top: 30px;
+	margin-left: 4%;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: 'Cabin Condensed', sans-serif;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	background-color: #ff0099;
 }
 
 .events-list-item {
-    margin-bottom: 100px;
+    margin-bottom: 145px;
 }
 
 body > div.container > main > section:nth-child(7) > div > a {
 	display: block;
-    margin: 13% auto;
+    margin: 45px auto;
     padding: 5%;
     background-color: #ff0099;
     color: white;
@@ -474,7 +440,7 @@ body > div.container > main > section:nth-child(7) > div > a {
 }
 
 ul.events-list {
-	margin-bottom: 35%;
+	margin-bottom: 145px;
 }
 
 /*--- Home Page: Faces of Joy ---*/
@@ -482,31 +448,11 @@ div.homepage_faces {
 	display: none;
 }
 
-body > div.container > main > section:nth-child(7) {
-	margin-bottom: -15px;
-}
-
 /*--- Home Page Media Queries ---*/
-@media (min-width: 400px) {
-	.container {
-		max-width: 100%;
-	}
-	section.icon_links > div a{
-		padding: 0;
-	}
-
-	section.row.icon_links > div:nth-child(1) a {
-		padding-left: 3em;
-		padding-right: 3em;
-	}
-}
-
-@media screen and (max-width: 450px) {
+/*--- Fix Mobile Only ---*/
+@media (max-width: 450px) {
 	.container {
 		margin-top: 20%;
-	}
-	header img {
-		box-shadow: none;
 	}
 	button#responsive-menu-button {
 		width: 100%;
@@ -517,11 +463,8 @@ body > div.container > main > section:nth-child(7) {
 	#menu-pages_menu {
 		display: none;
 	}
-	#homepage_banner_image {
-		margin-top: -3%;
-	}
 }
-
+/*--- Homepage Tablet ---*/
 @media (min-width: 550px) {
 	nav {
 		padding-bottom: 2%;
