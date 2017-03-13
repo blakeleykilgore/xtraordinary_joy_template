@@ -16,7 +16,7 @@
 			</div>
 	    </section>
 		<section class="row">
-			<div class="twelve columns">
+			<div class="twelve columns" id="fundraising-content">
 				<?php if (have_posts()) :
 					/* OUR DATA CONTEXT IS DEFINED 	*/
 					while (have_posts()) : the_post(); ?>
