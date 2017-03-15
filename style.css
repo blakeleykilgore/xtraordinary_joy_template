@@ -633,7 +633,7 @@ div.homepage_faces {
 		padding-left: 5%;
 	    margin-left: 15%;
 	    padding-top: 10%;
-	    padding-bottom: 10%;
+	    padding-bottom: 5%;
 	    font-size: 1em;
 	    letter-spacing: 1px;
 	}
@@ -711,22 +711,36 @@ div.homepage_faces {
 		margin-top: 30px;
 		font-size: 1.4em;
 	}
+	div.homepage_our_story {
+		padding-top: 10px;
+	}
 	div.homepage_our_story p {
 	    font-size: 1.6em;
 	    line-height: 28px;
 	}
+	.our_fundraising img {
+	    width: 25%;
+	}
 	#campaign-103 > div.campaign-donation-stats {
 		width: 200%;
-		margin-left: 30%;
+		margin-left: 45%;
+	}
+	#campaign-103 > div.campaign-description {
+		width: 165%;
+		margin-left: 50%;
+	}
+	#campaign-103 > div.campaign-progress-bar {
+	    width: 200%;
+	}
+	section.row.our_fundraising > div.six.columns > a {
+		margin-left: 50%;
 	}
 	#donations_text > p {
-		font-size: 1.1em;
+		font-size: 1.5em;
+	    line-height: 24px;
 	}
 	.events-list-title a {
-		font-size: 1.2em;
-	}
-	body > div.container > main > section:nth-child(7) > div > a {
-    	margin-top: 3%;
+		font-size: 1.5em;
 	}
 	div.events-list-image {
 	    height: 250px;
@@ -735,9 +749,14 @@ div.homepage_faces {
 		margin-top: -325px;
 	}
 	div.homepage_upcoming_events {
-	    margin-top: 10%;
+	    margin-top: 50px;
+	}
+	div.homepage_faces {
+		margin-top: 50px;
 	}
 }
+
+/*--- Homepage Desktop and Large Screens ---*/
 @media screen and (min-width: 1050px) {
 	#campaign-103 > div.campaign-donation-stats {
 	    margin-top: -27%;
