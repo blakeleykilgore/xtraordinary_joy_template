@@ -1,4 +1,9 @@
 <?php get_header(); ?>
+        <header class="three columns">
+            <img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/02/web_logo.png">
+            <h1 class="display_none"><?php bloginfo('name'); ?></h1>
+            <p class="display_none"><?php bloginfo('description'); ?></p>
+        </header>
         <nav class="nine columns">
             <h2 class="display_none">Navigation</h2>
             <?php
