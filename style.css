@@ -444,6 +444,11 @@ div.homepage_faces {
 	display: none;
 }
 
+/*--- Footer ---*/
+footer {
+    background-color: #2b3e47;
+}
+
 /*--- Home Page Media Queries ---*/
 /*--- Fix Mobile Only ---*/
 @media (max-width: 450px) {
@@ -758,21 +763,35 @@ div.homepage_faces {
 }
 
 /*--- Homepage Desktop and Large Screens ---*/
-@media screen and (min-width: 1050px) {
-
-@media screen and (min-width: 1220px) {
-	nav.nine.columns {
-		margin-left: 4%;
-		margin-bottom: 2%;
+@media screen and (min-width: 1085px) {
+	header img {
+	    width: 75%;
 	}
 	#menu-index_menu li a {
-	    font-size: 1.2vw;
+	    font-size: 1.4em;
+	}
+	div.homepage_banner {
+	    margin-top: -80px;
 	}
 	.homepage_banner .textwidget h4 {
-		font-size: 2.7vw;
+		background-image: linear-gradient(rgba(238, 238, 238, 0.7) 40px, transparent 0);
+	}
+	.homepage_joy_styling {
+	    padding-top: 50px;
+	}
+	div.homepage_our_story {
+	    padding-top: 60px;
+	}
+	#campaign-103 > div.campaign-donation-stats {
+	    width: 180%;
+	    margin-left: 55%;
+	}
+	#campaign-103 > div.campaign-description {
+	    width: 150%;
+	    margin-left: 60%;
 	}
 	div.events-list-image {
-	    height: 320px;
+	    height: 305px;
 	}
 }
 
@@ -1021,12 +1040,7 @@ div.homepage_faces {
 #nf-field-4 {
     background-color: #ff0099;
     color: #ffffff;
-}
+	}
 }
 
 /*--- Donate Page ---*/
-
-/*--- Footer ---*/
-footer {
-    background-color: #2b3e47;
-}
