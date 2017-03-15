@@ -393,6 +393,7 @@ div.events-list-image img {
     font-size: 1em;
     font-family: 'Cabin Condensed', sans-serif;
     letter-spacing: 1px;
+	pointer-events: none;
 }
 
 .events-list-date {
