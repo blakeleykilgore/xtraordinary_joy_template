@@ -614,7 +614,7 @@ footer {
 	#campaign-103 > div.campaign-donation-stats {
 		width: 110%;
 		margin-top: -100px;
-		margin-left: 5%;
+		margin-left: 11%;
 		font-size: 2em;
 	}
 	#campaign-103 > div.campaign-description {
@@ -624,7 +624,7 @@ footer {
 	}
 	#campaign-103 > div.campaign-progress-bar {
 		width: 86%;
-	    margin-left: 32%;
+	    margin-left: 30%;
 	    margin-top: 65px;
 	}
 	section.row.our_fundraising > div.six.columns > a {
