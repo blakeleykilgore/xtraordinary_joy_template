@@ -970,12 +970,31 @@ header.pages_header > img {
 
 /*--- Volunteer Page ---*/
 .nf-form-cont {
-	width: 85%;
+    width: 85%;
     margin: auto;
+    margin-top: 50px;
+	margin-bottom: 50px;
 }
 .nf-form-title h3 {
-    text-align: center;
-    margin-top: 1.5em;
+    display: none;
+}
+input#nf-field-16 {
+	width: 30%;
+	margin: auto;
+	display: block;
+	color: #ff0099;
+	border: 3px solid;
+	font-family: 'Cabin Condensed', sans-serif;
+    letter-spacing: 1.5px;
+}
+span.ninja-forms-req-symbol {
+    color: #ff0099;
+}
+@media (min-width: 750px) {
+	.nf-form-cont {
+	    width: 70%;
+		margin-top: 55px;
+	}
 }
 
 /*--- Upcoming events page ---*/
