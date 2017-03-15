@@ -549,16 +549,18 @@ div.homepage_faces {
     	margin-bottom: 3%;
 	}
 	.our_fundraising img {
-		width: 22%;
-	}
-	section.our_fundraising div.six.columns{
-		margin: -3% 0 0 10%;
+		width: 35%;
 	}
 	#campaign-103 > div.campaign-donation-stats {
-		width: 69%;
-		margin-top: -34%;
-		margin-left: 29%;
-    	font-size: 1.5em;
+		width: 112%;
+	    margin-left: 57%;
+	    font-size: 1.5em;
+	}
+	#campaign-103 > div.campaign-description {
+		width: 130%;
+	    margin-top: 90px;
+	    font-size: 1em;
+	    margin-left: 40%;
 	}
 	section.row.our_fundraising > div.six.columns > a {
 	    width: 50%;
@@ -567,26 +569,11 @@ div.homepage_faces {
 	    border: 3px solid #006699;
 	    background-color: #ffffff;
 	    padding: 4% 0%;
-	    margin-left: 42%;
-	}
-	#campaign-103 > div.campaign-description {
-		width: 83%;
-		margin-top: 56px;
-		font-size: .7em;
-		margin-left: 22%;
+	    margin-left: 95%;
 	}
 	#campaign-103 > div.campaign-progress-bar {
-    	width: 89%;
-	}
-	article.homepage_research {
-		display: block;
-	}
-	#donations_text {
-		padding-left: 5%;
-	    margin-left: 3%;
-	    padding-top: 12%;
-	    padding-bottom: 11%;
-	    margin-top: -33%;
+		width: 100%;
+	    margin-left: 80%;
 	}
 	div.homepage_upcoming_events h3 {
 		margin-top: 0;
@@ -698,6 +685,16 @@ div.homepage_faces {
 	    margin-top: 43px;
 	    font-size: 1.1em;
 	    margin-left: 21%;
+	}
+	article.homepage_research {
+		display: block;
+	}
+	#donations_text {
+		padding-left: 5%;
+	    margin-left: 3%;
+	    padding-top: 12%;
+	    padding-bottom: 11%;
+	    margin-top: -33%;
 	}
 	section.row.our_fundraising > div.six.columns > a {
 		margin-top: 14%;
