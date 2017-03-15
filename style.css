@@ -526,16 +526,16 @@ div.homepage_faces {
 	    margin: 0;
 		margin-top: 2%;
 	}
-	body > div.container > main > section:nth-child(3) > div > div > a {
-		margin-top: 3%;
-	    line-height: 17px;
-	    padding: 3% 5%;
+	section.icon_links > div a {
+		padding: 1em;
+		padding-top: 110px;
+	}
+	section.row.icon_links > div:nth-child(1) a {
+		padding-left: 2em;
+		padding-right: 2em;
 	}
 	section.our_story {
-	    background-image: linear-gradient(transparent 50px, #e6e6e6 50px, transparent);
-	}
-	body > div.container > main > section.row.our_story > div.seven.columns {
-		padding-top: 4%;
+	    background-image: linear-gradient(transparent 50px, #e6e6e6 50px);
 	}
 	div.homepage_our_story_image > img {
     	width: 110%;
