@@ -73,6 +73,8 @@ header img {
 #menu-index_menu li a {
 	text-decoration: none;
 	text-transform: uppercase;
+	font-family: 'Cabin Condensed', sans-serif;
+	letter-spacing: 1px;
 }
 
 #menu-index_menu li a:hover,
@@ -479,7 +481,7 @@ footer {
     	margin-top: -20px;
 	}
 	#menu-index_menu li a {
-	    font-size: 1.5vw;
+	    font-size: 1.3vw;
 	}
 	#menu-index_menu li {
 	    display: inline-block;
@@ -939,7 +941,15 @@ header.pages_header > img {
 }
 @media (min-width: 900px) {
 	nav.pages_menu {
-		padding-top: 45px;
+		padding-top: 25px;
+	}
+}
+@media (min-width: 1085px) {
+	#menu-index_menu li a {
+	    font-size: 1.2em;
+	}
+	nav.pages_menu {
+		padding-top: 35px;
 	}
 }
 
