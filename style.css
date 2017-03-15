@@ -899,6 +899,8 @@ footer {
     margin-top: 2em;
     width: 80%;
     text-align: center;
+	font-family: 'Cabin Condensed', sans-serif;
+	letter-spacing: 1px;
 }
 
 .banner_button {
@@ -996,6 +998,10 @@ input#nf-field-16 {
 	border: 3px solid;
 	font-family: 'Cabin Condensed', sans-serif;
     letter-spacing: 1.5px;
+}
+div.nf-form-fields-required, .nf-field-label label {
+	font-family: 'Cabin Condensed', sans-serif;
+	letter-spacing: 1px;
 }
 span.ninja-forms-req-symbol {
     color: #ff0099;
