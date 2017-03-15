@@ -10,7 +10,7 @@
 </div>
 	<main>
 		<h2 class="display_none">Xtraordinary Joy Events Page</h2>
-		<section class="row">
+		<section class="row events_banner">
 			<div class="twelve columns">
 	        	<?php dynamic_sidebar('events-banner'); ?>
 		</div>
