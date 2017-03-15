@@ -392,7 +392,6 @@ div.events-list-image img {
     font-size: 1em;
     font-family: 'Cabin Condensed', sans-serif;
     letter-spacing: 1px;
-    line-height: 24px;
 }
 
 .events-list-date {
@@ -404,7 +403,7 @@ div.events-list-image img {
 }
 
 .events-list-item .event-venue {
-	color: white;
+	color: #ffa1d9;
     font-family: 'Cabin Condensed', sans-serif;
     letter-spacing: 1px;
     line-height: 24px;
@@ -426,7 +425,7 @@ li.events-list-item > p > a {
 }
 
 .events-list-item {
-    margin-bottom: 145px;
+    margin-bottom: 135px;
 }
 
 body > div.container > main > section:nth-child(7) > div > a {
@@ -464,7 +463,7 @@ div.homepage_faces {
 		display: none;
 	}
 }
-/*--- Homepage Tablet ---*/
+/*--- Homepage Sideways Phones ---*/
 @media (min-width: 550px) {
 	header img {
 	    border-radius: 5px 5px 17px 17px;
@@ -575,79 +574,22 @@ div.homepage_faces {
 		width: 100%;
 	    margin-left: 80%;
 	}
-	div.homepage_upcoming_events h3 {
-		margin-top: 0;
-	}
-	div.homepage_upcoming_events {
-		margin-top: 5%;
-	}
-	.events-list-item {
-	    display: inline-block;
-	    width: 49%;
-	}
 	.events-list-title {
 		width: 99%;
 	    font-size: 1.5em;
 		margin-top: -300px;
 	}
-	.events-list-date {
-    	font-size: 1em;
-		letter-spacing: 1px;
-	}
-	.events-list-item .event-venue {
-		font-size: 1.7vw;
-	}
 	li.events-list-item > p > a {
-	    margin-top: 5%;
-	    margin-left: 2%;
-	    padding: 1%;
+	    margin-top: 30px;
 	    border-radius: 2px;
-	    font-size: 3vw;
-	}
-	div.events-list-image {
-		height: 210px;
-	}
-	ul.events-list {
-    	margin-bottom: 0%;
 	}
 	body > div.container > main > section:nth-child(7) > div > a {
-		margin-top: 0;
-		padding: 3%;
 		font-size: 1.2em;
 		background-color: #ffffff;
 		color: #ff0099;
 		border: 6px solid;
 		border-radius: 15px;
 		width: 29%;
-		margin-bottom: 8%;
-	}
-	div.homepage_faces {
-		display: block;
-		background-image: url("images/background.png");
-		background-size: 100%;
-	}
-	div.homepage_faces h3 {
-		color: white;
-		border-bottom: 1px solid #ff0099;
-		padding: 2%;
-		margin: 0 7%;
-		font-family: 'Cabin Condensed', sans-serif;
-	    letter-spacing: 2px;
-	    font-weight: 900;
-		font-size: 2em;
-    	text-align: center;
-	}
-	#menu-item-54, #menu-item-53, #menu-item-52, #menu-item-51 {
-		background-color: white;
-		border-radius: 50%;
-		width: 5%;
-		padding: 7%;
-		display: inline-block;
-		margin: 2%;
-	}
-	div.homepage_faces ul {
-		padding-left: 6%;
-		margin-bottom: 0;
 	}
 }
 
@@ -698,6 +640,38 @@ div.homepage_faces {
 	}
 	section.row.our_fundraising > div.six.columns > a {
 		margin-top: 14%;
+	}
+	.events-list-item {
+	    display: inline-block;
+	    width: 49%;
+	}
+	div.homepage_faces {
+		display: block;
+		background-image: url("images/background.png");
+		background-size: 100%;
+	}
+	div.homepage_faces h3 {
+		color: white;
+		border-bottom: 1px solid #ff0099;
+		padding: 2%;
+		margin: 0 7%;
+		font-family: 'Cabin Condensed', sans-serif;
+	    letter-spacing: 2px;
+	    font-weight: 900;
+		font-size: 2em;
+    	text-align: center;
+	}
+	#menu-item-54, #menu-item-53, #menu-item-52, #menu-item-51 {
+		background-color: white;
+		border-radius: 50%;
+		width: 5%;
+		padding: 7%;
+		display: inline-block;
+		margin: 2%;
+	}
+	div.homepage_faces ul {
+		padding-left: 6%;
+		margin-bottom: 0;
 	}
 }
 
