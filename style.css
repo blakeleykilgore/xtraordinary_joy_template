@@ -664,17 +664,17 @@ div.homepage_faces {
 		font-size: 2em;
     	text-align: center;
 	}
-	#menu-item-54, #menu-item-53, #menu-item-52, #menu-item-51 {
-		background-color: white;
-		border-radius: 50%;
-		width: 5%;
-		padding: 7%;
-		display: inline-block;
-		margin: 2%;
-	}
 	div.homepage_faces ul {
 		text-align: center;
 		margin-bottom: 0;
+	}
+	div.menu-faces-container > ul > li.menu-item {
+		background-color: white;
+	    border-radius: 50%;
+	    width: 20%;
+	    padding: 55px 10px;
+	    display: inline-block;
+	    margin: 2%;
 	}
 }
 
