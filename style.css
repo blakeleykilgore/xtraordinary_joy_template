@@ -942,6 +942,10 @@ footer {
 
 
 /*--- Volunteer Page ---*/
+.nf-form-cont {
+	width: 85%;
+    margin: auto;
+}
 .nf-form-title h3 {
     text-align: center;
     margin-top: 1.5em;
