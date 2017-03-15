@@ -21,18 +21,9 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
-		'name' => ('Homepage Icon Links'),
-		'id' => 'homepage-icon-links',
-		'description' => 'Third widget for the homepage',
-		'before_widget' => '<div class="homepage_icon_links">',
-		'after_widget' => '</div>',
-		'before_title' => '<h3 class="display_none">',
-		'after_title' => '</h3>'
-		));
-    register_sidebar( array(
 		'name' => ('Hompage Our Story Section'),
 		'id' => 'homepage-our-story',
-		'description' => 'Fourth widget for the homepage',
+		'description' => 'Third widget for the homepage',
 		'before_widget' => '<div class="homepage_our_story">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3>',
@@ -41,7 +32,7 @@ function blank_widgets_init() {
     register_sidebar( array(
 		'name' => ('Homepage Money Raised Section'),
 		'id' => 'homepage-money-raised',
-		'description' => 'fifth widget for the homepage',
+		'description' => 'Fourth widget for the homepage',
 		'before_widget' => '<article class="homepage_research">',
 		'after_widget' => '</article>',
 		'before_title' => '<h4 class="display_none">',
@@ -50,7 +41,7 @@ function blank_widgets_init() {
     register_sidebar( array(
 		'name' => ('Hompeage Upcoming Events'),
 		'id' => 'homepage-upcoming-events',
-		'description' => 'sixth widget for the homepage',
+		'description' => 'Fifth widget for the homepage',
 		'before_widget' => '<div class="homepage_upcoming_events">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3>',
@@ -59,7 +50,7 @@ function blank_widgets_init() {
     register_sidebar( array(
 		'name' => ('Hompeage Faces of Xq27.3-q28 Deletion'),
 		'id' => 'homepage-faces',
-		'description' => 'seventh widget for the homepage',
+		'description' => 'Sixth widget for the homepage',
 		'before_widget' => '<div class="homepage_faces">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3>',

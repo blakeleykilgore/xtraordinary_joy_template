@@ -25,7 +25,7 @@
         </section>
         <section class="row icon_links">
             <div class="four columns">
-                <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/donate">Donate</a>
+                <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/campaigns/donate">Donate</a>
             </div>
             <div class="four columns">
                 <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/volunteer">Get Involved</a>
