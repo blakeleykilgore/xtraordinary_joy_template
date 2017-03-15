@@ -296,6 +296,7 @@ div.homepage_our_story_image > img {
     color: #595959;
     line-height: 18px;
     padding: 0 27px;
+	text-align: center;
 }
 
 #campaign-103 > div.campaign-donation-stats {
@@ -425,7 +426,7 @@ li.events-list-item > p > a {
 }
 
 .events-list-item {
-    margin-bottom: 135px;
+    margin-bottom: 150px;
 }
 
 body > div.container > main > section:nth-child(7) > div > a {
@@ -758,18 +759,7 @@ div.homepage_faces {
 
 /*--- Homepage Desktop and Large Screens ---*/
 @media screen and (min-width: 1050px) {
-	#campaign-103 > div.campaign-donation-stats {
-	    margin-top: -27%;
-	    font-size: 2.3em;
-	    line-height: 34px;
-	}
-	section.row.our_fundraising > div.six.columns > a {
-	    margin-top: 7%;
-	}
-	body > div.container > main > section:nth-child(7) > div > a {
-	    margin-top: 5%;
-	}
-}
+
 @media screen and (min-width: 1220px) {
 	nav.nine.columns {
 		margin-left: 4%;
@@ -1032,7 +1022,7 @@ div.homepage_faces {
     background-color: #ff0099;
     color: #ffffff;
 }
-
+}
 
 /*--- Donate Page ---*/
 
