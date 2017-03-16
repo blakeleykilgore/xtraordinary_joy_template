@@ -29,6 +29,9 @@
             <div class="twelve columns" id="follow-us-container">
                 <img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/logo-icon-only-tilted.png" alt="Follow Us" title="Follow Us" id="follow_icon">
 	        	<?php dynamic_sidebar('contact-social-info'); ?>
+				<a href="https://www.facebook.com/xtraordinaryjoyinc/" target="_blank"><img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/facebook.png" alt="Facebook" title="Facebook"></a>
+				<a href="https://twitter.com/XtraordinaryJoy" target="_blank"><img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/twitter.png" alt="Twitter" title="Twitter"></a>
+				<a href="https://www.instagram.com/xtraordinary.joy/" target="_blank"><img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/instagram.png" alt="Instagram" title="Instagram"></a>
 			</div>
 	    </section>
 		<section class="row">
