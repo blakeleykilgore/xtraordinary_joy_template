@@ -1092,6 +1092,56 @@ div.events_page_upcoming_events div.textwidget a {
 	}
 }
 
+
+/*--- Resources Page --- */
+.resources-content h2 {
+	color: #006699;
+	text-align: center;
+}
+
+.resources-content h4 strong {
+	color: #ff0099;
+	font-size: 1em;
+}
+
+.resources-heading,
+#resources-uf {
+	font-weight: 700;
+	color: #006699;
+	margin-top: 3em;
+}
+
+.resources-heading:first-child {
+	margin-top: 0;
+}
+
+#uf-blurb {
+	color: #ff0099;
+	text-align: center;
+	margin: 3em;
+}
+
+.resources-content ul li {
+	line-height: 30px;
+	font-size: 1.2em;
+	list-style-type: disc;
+	padding-left: 1.5em;
+}
+
+#resources-uf {
+	font-size: 1.3em;
+}
+
+#uf-blurb ul {
+	margin-bottom: 3em;
+}
+
+.resources-page-content {
+	margin-bottom: 10em;
+	padding: 1em;
+}
+
+
 /*--- Contact Us ---*/
 .contact_info {
     text-align: center;
