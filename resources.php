@@ -20,7 +20,7 @@
 	        	<?php dynamic_sidebar('resources-banner'); ?>
 			</div>
 	    </section>
-		<section>
+		<section class="resources-content">
 			<?php if (have_posts()) :
 				/* OUR DATA CONTEXT IS DEFINED 	*/
 				while (have_posts()) : the_post(); ?>
