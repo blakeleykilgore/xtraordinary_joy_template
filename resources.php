@@ -13,7 +13,7 @@
 		?>
 	</nav>
 </div>
-	<main>
+	<main class="resources-page-content">
 		<h2 class="display_none">Xtraordinary Joy Resources Page</h2>
 		<section class="row">
 			<div class="twelve columns">
