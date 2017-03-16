@@ -975,8 +975,43 @@ header.pages_header > img {
 
 .sponsor_package {
     color: #ff0099;
-    font-weight: 700;
+}
+
+.sponsor_package,
+.sponsor_price {
+	font-weight: 700;
     font-size: 1.5em;
+}
+.sponsor_price {
+	color: #006699;
+}
+
+#xcaliber ul,
+#xtreme ul,
+#xclusive ul,
+#xcellence ul {
+	font-weight: normal;
+	text-align: left;
+	margin: 1.5em 0 0 1.5em;
+}
+
+#view_events h3 {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 2.5em 0;
+}
+
+#view_events h3 a {
+	color: #006699;
+	font-size: 0.5em;
+	border: 2px solid #006699;
+	border-radius: 4px;
+	padding: 1em;
+}
+
+#view_events h3 a:hover {
+	color: #ff0099;
+	border: 2px solid #ff0099;
 }
 
 
