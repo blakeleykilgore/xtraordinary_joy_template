@@ -966,21 +966,27 @@ header.pages_header > img {
 }
 
 /* -- Partner Page -- */
-#package_top {
-    margin-bottom: 5em;
-}
-
 #xtreme img,
 #xcaliber img,
 #xclusive img,
 #xcellence img {
-    width: 15%;
+	width: 15%;
+    position: absolute;
+    margin-top: -18px;
+    margin-left: -38px;
+}
+#xtreme,
+#xcaliber,
+#xclusive,
+#xcellence {
+	text-align: center;
 }
 
 #sponsor_package_title {
     text-align: center;
     margin-top: 1em;
     color: #006699;
+	margin-bottom: 2em;
 }
 
 .sponsor_package {
@@ -994,6 +1000,8 @@ header.pages_header > img {
 }
 .sponsor_price {
 	color: #006699;
+    display: block;
+    padding: 12px 0 0 0;
 }
 
 #xcaliber ul,
@@ -1001,14 +1009,16 @@ header.pages_header > img {
 #xclusive ul,
 #xcellence ul {
 	font-weight: normal;
-	text-align: left;
-	margin: 1.5em 0 0 1.5em;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 6em;
+	padding-top: 20px;
 }
 
 #view_events h3 {
 	text-transform: uppercase;
 	text-align: center;
-	margin: 2.5em 0;
+	margin: 0 0 2em 0;
 }
 
 #view_events h3 a {
@@ -1022,6 +1032,31 @@ header.pages_header > img {
 #view_events h3 a:hover {
 	color: #ff0099;
 	border: 2px solid #ff0099;
+}
+@media (min-width: 500px) {
+	#xtreme img, #xcaliber img, #xclusive img, #xcellence img {
+	    width: 10%;
+	    position: absolute;
+	    margin-top: -15px;
+	    margin-left: -35px;
+	}
+}
+@media (min-width: 750px) {
+	#xtreme img, #xcaliber img, #xclusive img, #xcellence img {
+	    width: 8%;
+	}
+}
+@media (min-width: 900px) {
+	#xtreme img, #xcaliber img, #xclusive img, #xcellence img {
+	    width: 7%;
+	    margin-top: -20px;
+	    margin-left: -40px;
+	}
+}
+@media (min-width: 1100px) {
+	#xtreme img, #xcaliber img, #xclusive img, #xcellence img {
+	    width: 6%;
+	}
 }
 
 
