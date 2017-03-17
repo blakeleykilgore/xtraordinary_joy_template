@@ -69,7 +69,7 @@
 		</section>
 		<section class="row">
 			<div class="twelve columns" id="view_events">
-		        <h3><a href="http://www.blakeleykilgore.com/xtraordinaryjoy/upcoming_events">View Upcoming Events</a></h3>
+		        <h3><a href="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/sponsorshipform.pdf" download>Download Our Sponsorship Form</a></h3>
 			</div>
 	    </section>
 		<section class="row">
