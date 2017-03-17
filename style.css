@@ -1220,16 +1220,20 @@ div.events_page_upcoming_events div.textwidget a {
 
 #follow-us-container {
 	text-align: center;
+	background-color: #006699;
+	padding-bottom: 2em;
+	margin-top: 5em;
 }
 
-#follow-us-container img {
+#follow_icon {
 	width: 25%;
-	margin-bottom: -4em;
+	margin-top: -4em;
 }
 
 @media (min-width: 500px) {
-	#follow-us-container img {
+	#follow_icon {
 		width: 20%;
+		margin-top: -4.5em;
 	}
 }
 
@@ -1238,15 +1242,23 @@ div.events_page_upcoming_events div.textwidget a {
 		text-align: left;
 	}
 
-	#follow-us-container img {
+	#follow_icon {
 	float: left;
 	position: absolute;
 	width: 35%;
-	top: 570px;
+	top: 750px;
 	left: 7px;
 	right: 0px;
 	max-width: 275px;
 	}
+
+	.social-links {
+		text-align: center;
+	}
+}
+
+.social-links {
+	margin-top: 2em;
 }
 
 .contact_follow_us {
