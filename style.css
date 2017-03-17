@@ -1201,21 +1201,8 @@ div.events_page_upcoming_events div.textwidget a {
 
 .contact_info p {
     font-size: 1.5em;
-}
-
-.contact_info p,
-#email {
-    color: #8c8c8c;
-}
-
-#email {
-    font-size: 1em;
-}
-
-#phone_number a {
-    color: #006699;
-    font-size: 1.3em;
-    font-weight: 700;
+	font-weight: 700;
+	color: #006699;
 }
 
 #follow-us-container {
