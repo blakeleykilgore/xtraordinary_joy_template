@@ -875,8 +875,18 @@ footer {
 
 .campaign-description {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	margin: 1em 0 2em;
+	line-height: 30px;
+	color: #7d7a7a;
+}
+
+.campaign-summary {
+	padding-top: 15px;
+}
+
+.campaign-summary .campaign-figures .amount, .campaign-summary .campaign-raised .amount {
+	font-size: 2em;
 }
 
 .campaign-summary .campaign-raised span,
@@ -1272,3 +1282,9 @@ div.events_page_upcoming_events div.textwidget a {
 }
 
 /*--- Donate Page ---*/
+body > div.container > main > section:nth-child(3) > div > div.campaign-summary {
+	border: none;
+}
+.campaign-summary .campaign-summary-item {
+	border: none;
+}
