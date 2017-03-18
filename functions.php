@@ -1,7 +1,7 @@
 <?php
 /*-------------- Enable Widgets--------------- */
 function blank_widgets_init() {
-    /*-----Hompeage Widgets-----*/
+    /*-----Homepeage Widgets-----*/
     register_sidebar( array(
 		'name' => ('Homepage Banner'),
 		'id' => 'homepage-banner',
@@ -21,7 +21,7 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
-		'name' => ('Hompage Our Story Section'),
+		'name' => ('Homepage Our Story Section'),
 		'id' => 'homepage-our-story',
 		'description' => 'Third widget for the homepage',
 		'before_widget' => '<div class="homepage_our_story">',
@@ -39,7 +39,7 @@ function blank_widgets_init() {
 		'after_title' => '</h4>'
 		));
     register_sidebar( array(
-		'name' => ('Hompeage Upcoming Events'),
+		'name' => ('Homepeage Upcoming Events'),
 		'id' => 'homepage-upcoming-events',
 		'description' => 'Fifth widget for the homepage',
 		'before_widget' => '<div class="homepage_upcoming_events">',
@@ -48,7 +48,7 @@ function blank_widgets_init() {
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
-		'name' => ('Hompeage Faces of Xq27.3-q28 Deletion'),
+		'name' => ('Homepage Faces of Xq27.3-q28 Deletion'),
 		'id' => 'homepage-faces',
 		'description' => 'Sixth widget for the homepage',
 		'before_widget' => '<div class="homepage_faces">',
