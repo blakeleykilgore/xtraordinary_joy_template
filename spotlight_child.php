@@ -26,15 +26,6 @@
 				endif; ?>
 			</div>
 		</section>
-		<section class="row">
-            <div class="twelve columns" id="follow-us-container">
-	        	<?php dynamic_sidebar('contact-social-info'); ?>
-				<div class="social-links">
-					<a href="https://www.facebook.com/xtraordinaryjoyinc/" target="_blank"><img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/facebook.png" alt="Facebook" title="Facebook"></a>
-					<a href="https://twitter.com/XtraordinaryJoy" target="_blank"><img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/twitter.png" alt="Twitter" title="Twitter"></a>
-					<a href="https://www.instagram.com/xtraordinary.joy/" target="_blank"><img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/instagram.png" alt="Instagram" title="Instagram"></a>
-				</div>
-			</div>
-	    </section>
+		<a href="http://www.blakeleykilgore.com/xtraordinaryjoy/resources/" class="learn_more_button">Learn more about Xq27.3-q28 DELETION</a>
 	</main>
 <?php get_footer(); ?>

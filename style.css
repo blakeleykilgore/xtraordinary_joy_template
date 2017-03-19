@@ -1397,11 +1397,15 @@ div.menu-faces-container > ul > li.menu-item > a {
 }
 
 /*--- Faces Pages ---*/
-section.faces_single > div > div > div.four.columns > a > img {
-	width: 100%;
-    height: auto;
+section.faces_single img {
+	text-align: center;
+	display: block;
+	width: 50%;
+	height: auto;
+	margin: auto;
+	border-radius: 10px;
 }
-section.faces_single > div > div > div.eight.columns {
+section.faces_single p {
 	text-align: center;
     font-size: 1.3em;
     line-height: 23px;
@@ -1417,5 +1421,19 @@ section.faces_single h2 {
 	color: #006699;
 	margin-top: 1em;
 	font-family: KTF-Roadstar;
-	padding-left: 35%;
+}
+a.learn_more_button {
+	display: block;
+	width: 45%;
+	margin: auto;
+	color: #ff0099;
+	border: solid 3px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	font-family: KTF-Roadstar;
+}
+a.learn_more_button:hover {
+	color: #006699;
 }
