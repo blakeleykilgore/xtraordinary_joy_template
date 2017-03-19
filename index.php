@@ -60,4 +60,5 @@
         <section class="row">
             <?php dynamic_sidebar('homepage-faces'); ?>
         </section>
+    </main>
 <?php get_footer(); ?>

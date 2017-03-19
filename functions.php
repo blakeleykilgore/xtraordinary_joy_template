@@ -169,4 +169,10 @@ add_theme_support('menus');
 
 /*-------------- Enable Featured Images ----------------*/
 add_theme_support( 'post-thumbnails' );
+/*--- Add javascript file ---*/
+function wpb_adding_scripts() {
+	wp_enqueue_script('main_js', get_stylesheet_directory_uri() . '/main.js', array('jquery'));
+	wp_enqueue_script('main_js');
+	}
+	add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );
 ?>
