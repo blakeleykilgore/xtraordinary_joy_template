@@ -191,6 +191,11 @@ header img {
     text-align: center;
 }
 
+.homepage_mission_statement a:hover {
+	color: color: #006699;
+    border: #006699 4px solid;
+}
+
 div.homepage_mission_statement > div.textwidget {
 	padding-bottom: 5%;
 	height: 164px;
@@ -209,6 +214,10 @@ section.icon_links > div a{
     font-family: 'Cabin Condensed', sans-serif;
     font-weight: 800;
     letter-spacing: 1.5px;
+}
+
+section.icon_links > div a:hover {
+	color: #006699;
 }
 
 section.icon_links div {
@@ -338,6 +347,10 @@ section.row.our_fundraising > div.six.columns > a {
 	margin-top: 45px;
 }
 
+section.row.our_fundraising > div.six.columns > a:hover {
+	background-color: #ff0099;
+}
+
 /*--- Home Page: Our Fundraising (Description) ---*/
 article.homepage_research {
 	display: none;
@@ -428,6 +441,11 @@ li.events-list-item > p > a {
 	background-color: #ff0099;
 }
 
+li.events-list-item > p > a:hover {
+	background-color: white;
+	color: #ff0099;
+}
+
 .events-list-item {
     margin-bottom: 150px;
 }
@@ -440,6 +458,10 @@ body > div.container > main > section:nth-child(7) > div > a {
     color: white;
     text-align: center;
     border-radius: 5px;
+}
+
+body > div.container > main > section:nth-child(7) > div > a:hover {
+	background-color: #006699;
 }
 
 /*--- Home Page: Faces of Joy ---*/
@@ -518,6 +540,9 @@ footer {
 		border: 4px solid white;
 		background-color: rgba(238, 238, 238, 0.4);
 	}
+	div.homepage_banner > div.textwidget > a:hover {
+		background-color: rgba(255, 0, 153, 0.51)
+	}
 	div.homepage_mission_statement > div.textwidget {
 		height: 90px;
 		box-shadow: 1px 1px 10px rgba(25, 36, 48, 0.4);
@@ -574,6 +599,11 @@ footer {
 	    padding: 4% 0%;
 	    margin-left: 95%;
 	}
+	section.row.our_fundraising > div.six.columns > a:hover {
+		color: #ff0099;
+	    border: 3px solid #ff0099;
+	    background-color: #ffffff;
+	}
 	#campaign-103 > div.campaign-progress-bar {
 		width: 100%;
 	    margin-left: 80%;
@@ -594,6 +624,11 @@ footer {
 		border: 6px solid;
 		border-radius: 15px;
 		width: 29%;
+	}
+	body > div.container > main > section:nth-child(7) > div > a:hover {
+		background-color: #ffffff;
+		color: #006699;
+		border: 6px solid;
 	}
 }
 
@@ -957,6 +992,9 @@ header.pages_header > img {
 		border: 2px solid;
 		border-radius: 5px;
 	}
+	nav.pages_menu div.menu-index_menu-container > ul >#menu-item-115 > a:hover {
+		color: #a2a1a1;
+	}
 	div#pages_banner {
 		margin-top: -25px;
 	}
@@ -1293,7 +1331,7 @@ body > div.container > main > section:nth-child(3) > div > div.campaign-summary 
 }
 
 /*--- Thank You Confirmations ---*/
-#nf-form-3-cont > div > div.nf-response-msg > p:nth-child(1) {
+#nf-form-3-cont > div > div.nf-response-msg > p:nth-child(1), #nf-form-1-cont > div > div.nf-response-msg > p:nth-child(1) {
 	font-family: 'Cabin Condensed', sans-serif;
     letter-spacing: 1px;
     font-size: 1.5em;
@@ -1301,11 +1339,17 @@ body > div.container > main > section:nth-child(3) > div > div.campaign-summary 
     text-align: center;
 	color: #8f8e8e;
 }
-#nf-form-3-cont > div > div.nf-response-msg > p:nth-child(2) {
+#nf-form-3-cont > div > div.nf-response-msg > p:nth-child(2), #nf-form-1-cont > div > div.nf-response-msg > p:nth-child(2) {
 	font-family: 'Cabin Condensed', sans-serif;
 	letter-spacing: 1px;
 	font-size: 1.2em;
 	line-height: 22px;
 	text-align: center;
 	color: #ff0099;
+}
+#nf-form-1-cont > div > div.nf-response-msg > p:nth-child(3) {
+	text-align: center;
+    font-family: KTF-Roadstar;
+    font-size: 2em;
+    color: #006699;
 }
