@@ -714,8 +714,8 @@ footer {
 	div.menu-faces-container > ul > li.menu-item {
 		background-color: white;
 	    border-radius: 50%;
-	    width: 105px;
-	    padding: 55px 10px;
+		width: 130px;
+		padding: 70px 10px;
 	    display: inline-block;
 	    margin: 2%;
 	}
@@ -1373,4 +1373,25 @@ body > div.container > main > section:nth-child(3) > div > div.campaign-summary 
 	line-height: 26px;
 	padding: 0 2em;
 	color: #8f8e8e;
+}
+
+/*--- Faces Menu !!!!MAKE DYNAMIC!!!! ---*/
+div.menu-faces-container > ul > li.menu-item:nth-child(1) {
+	background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/moriah_profile.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.menu-faces-container > ul > li.menu-item:nth-child(2) {
+	background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/02/Foley-9.jpeg');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.menu-faces-container > ul > li.menu-item:hover {
+	filter: brightness(40%);
+}
+div.menu-faces-container > ul > li.menu-item > a {
+	opacity: 0;
+    padding: 15%;
 }
