@@ -1293,7 +1293,7 @@ body > div.container > main > section:nth-child(3) > div > div.campaign-summary 
 }
 
 /*--- Thank You Confirmations ---*/
-#nf-form-3-cont > div > div.nf-response-msg > p:nth-child(1) {
+#nf-form-3-cont > div > div.nf-response-msg:nth-child(0) {
 	font-family: 'Cabin Condensed', sans-serif;
     letter-spacing: 1px;
     font-size: 1.5em;
@@ -1301,11 +1301,38 @@ body > div.container > main > section:nth-child(3) > div > div.campaign-summary 
     text-align: center;
 	color: #8f8e8e;
 }
-#nf-form-3-cont > div > div.nf-response-msg > p:nth-child(2) {
+#nf-form-3-cont > div > div.nf-response-msg:nth-child(1) {
 	font-family: 'Cabin Condensed', sans-serif;
 	letter-spacing: 1px;
 	font-size: 1.2em;
 	line-height: 22px;
 	text-align: center;
 	color: #ff0099;
+}
+
+.nf-response-msg p {
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 26px;
+	color: #8f8e8e;
+}
+
+.thank-you-page-content {
+	margin-bottom: 10em;
+	text-align: center;
+}
+
+.thank-you-content h2 {
+	color: #006699;
+	margin-top: 2em;
+}
+
+.thanks {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+.thank-you-content p {
+	font-size: 1.1em;
+	line-height: 26px;
+	padding: 0 2em;
 }
