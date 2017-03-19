@@ -466,7 +466,31 @@ body > div.container > main > section:nth-child(7) > div > a:hover {
 
 /*--- Home Page: Faces of Joy ---*/
 div.homepage_faces {
-	display: none;
+	display: block;
+	background-image: url("images/background.png");
+	padding: 5%;
+}
+div.homepage_faces h3 {
+	color: white;
+	border-bottom: 1px solid #ff0099;
+	padding: 2%;
+	font-family: 'KTF-Roadstar', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 800;
+	font-size: 2em;
+	text-align: center;
+}
+div.homepage_faces ul {
+	text-align: center;
+	margin-bottom: 0;
+}
+div.menu-faces-container > ul > li.menu-item {
+	background-color: white;
+    border-radius: 50%;
+	width: 130px;
+	padding: 70px 10px;
+    display: inline-block;
+    margin: 2%;
 }
 
 /*--- Footer ---*/
@@ -692,32 +716,7 @@ footer {
 		margin-top: 15px;
 	}
 	div.homepage_faces {
-		display: block;
-		background-image: url("images/background.png");
 		background-size: 100%;
-		padding: 5%;
-	}
-	div.homepage_faces h3 {
-		color: white;
-		border-bottom: 1px solid #ff0099;
-		padding: 2%;
-		font-family: 'KTF-Roadstar', sans-serif;
-	    letter-spacing: 2px;
-	    font-weight: 800;
-		font-size: 2em;
-    	text-align: center;
-	}
-	div.homepage_faces ul {
-		text-align: center;
-		margin-bottom: 0;
-	}
-	div.menu-faces-container > ul > li.menu-item {
-		background-color: white;
-	    border-radius: 50%;
-		width: 130px;
-		padding: 70px 10px;
-	    display: inline-block;
-	    margin: 2%;
 	}
 }
 
