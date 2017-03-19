@@ -1347,9 +1347,30 @@ body > div.container > main > section:nth-child(3) > div > div.campaign-summary 
 	text-align: center;
 	color: #ff0099;
 }
-#nf-form-1-cont > div > div.nf-response-msg > p:nth-child(3) {
+.nf-response-msg p {
 	text-align: center;
-    font-family: KTF-Roadstar;
-    font-size: 2em;
-    color: #006699;
+	font-size: 1.1em;
+	line-height: 26px;
+	color: #8f8e8e;
+}
+
+.thank-you-page-content {
+	margin-bottom: 10em;
+	text-align: center;
+}
+
+.thank-you-content h2 {
+	color: #006699;
+	margin-top: 2em;
+}
+
+.thanks {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+.thank-you-content p {
+	font-size: 1.1em;
+	line-height: 26px;
+	padding: 0 2em;
+	color: #8f8e8e;
 }
