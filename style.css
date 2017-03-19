@@ -1377,9 +1377,9 @@ body > div.container > main > section:nth-child(3) > div > div.campaign-summary 
 
 /*--- Faces Menu !!!!MAKE DYNAMIC!!!! ---*/
 div.menu-faces-container > ul > li.menu-item:nth-child(1) {
-	background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/moriah_profile.png');
-    background-size: 100%;
-    background-position: center;
+	background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/Copy-of-AMeecham1016_5816e.jpg');
+    background-size: 150%;
+    background-position: center top;
     background-repeat: no-repeat;
 }
 div.menu-faces-container > ul > li.menu-item:nth-child(2) {
@@ -1394,4 +1394,28 @@ div.menu-faces-container > ul > li.menu-item:hover {
 div.menu-faces-container > ul > li.menu-item > a {
 	opacity: 0;
     padding: 15%;
+}
+
+/*--- Faces Pages ---*/
+section.faces_single > div > div > div.four.columns > a > img {
+	width: 100%;
+    height: auto;
+}
+section.faces_single > div > div > div.eight.columns {
+	text-align: center;
+    font-size: 1.3em;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #8c8c8c;
+}
+section.faces_single h2 {
+	text-align: center;
+    font-size: 2.5em;
+    line-height: 23px;
+    letter-spacing: 1px;
+	text-align: center;
+	color: #006699;
+	margin-top: 1em;
+	font-family: KTF-Roadstar;
+	padding-left: 35%;
 }

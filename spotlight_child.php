@@ -15,7 +15,7 @@
 </div>
 	<main>
 		<h2 class="display_none">Faces of Xq27.3-q28 DELETION</h2>
-		<section class="row">
+		<section class="row faces_single">
 			<div class="twelve columns">
 				<?php if (have_posts()) :
 					/* OUR DATA CONTEXT IS DEFINED 	*/
