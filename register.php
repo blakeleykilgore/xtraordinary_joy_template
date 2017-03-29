@@ -26,6 +26,5 @@
 				endif; ?>
 			</div>
 		</section>
-		<a href="http://www.blakeleykilgore.com/xtraordinaryjoy/upcoming-events/" class="learn_more_button">See More Upcoming Events</a>
 	</main>
 <?php get_footer(); ?>

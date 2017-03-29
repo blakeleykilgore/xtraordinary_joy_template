@@ -1444,3 +1444,10 @@ div.single_event_info a {
 	color: #ff0099;
     font-size: 1em;
 }
+#nf-form-4-cont > div > div.nf-form-layout > div > div.nf-form-content {
+	width: 90%;
+    margin: auto;
+}
+#nf-form-4-cont > div > div.nf-form-layout > div > div.nf-before-form-content > nf-section > div.nf-form-fields-required {
+	display: none;
+}
