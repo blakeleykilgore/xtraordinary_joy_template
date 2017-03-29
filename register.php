@@ -1,4 +1,4 @@
-<?php /* Template Name: Spotlight Child Page */ ?>
+<?php /* Template Name: Event Registration Page */ ?>
 <?php get_header(); ?>
 	<header class="three columns pages_header">
 		<img src="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/02/web_logo.png">
@@ -26,6 +26,6 @@
 				endif; ?>
 			</div>
 		</section>
-		<a href="http://www.blakeleykilgore.com/xtraordinaryjoy/resources/" class="learn_more_button">Learn more about Xq27.3-q28 DELETION</a>
+		<a href="http://www.blakeleykilgore.com/xtraordinaryjoy/upcoming-events/" class="learn_more_button">See More Upcoming Events</a>
 	</main>
 <?php get_footer(); ?>
