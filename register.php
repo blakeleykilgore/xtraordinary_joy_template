@@ -14,15 +14,15 @@
 	</nav>
 </div>
 	<main>
-		<h2 class="display_none">Faces of Xq27.3-q28 DELETION</h2>
-		<section class="row faces_single">
+		<h2 class="display_none">Thanks for Participating!</h2>
+		<section class="row single_event">
 			<div class="twelve columns">
 				<?php if (have_posts()) :
 					/* OUR DATA CONTEXT IS DEFINED 	*/
 					while (have_posts()) : the_post(); ?>
-						<h2><?php the_title(); ?></h2>
-						<?php the_content();
-					endwhile;
+						<h2 class="single_event_title"><?php the_title(); ?></h2>
+						<div class="single_event_info"><?php the_content(); ?></div>
+					<?php endwhile;
 				endif; ?>
 			</div>
 		</section>

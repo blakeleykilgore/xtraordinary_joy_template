@@ -511,7 +511,7 @@ section.faces_single img {
 	margin: auto;
 	border-radius: 10px;
 }
-section.faces_single p {
+section.faces_single p, div.single_event_info p {
 	text-align: center;
     font-size: 1.3em;
     line-height: 23px;
@@ -1440,3 +1440,7 @@ body > div.container > main > section:nth-child(3) > div > div.campaign-summary 
 }
 
 /* --- Single Event Info/Registration Page --- */
+div.single_event_info a {
+	color: #ff0099;
+    font-size: 1em;
+}
