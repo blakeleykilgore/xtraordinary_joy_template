@@ -480,17 +480,17 @@ div.homepage_faces h3 {
 	font-size: 2em;
 	text-align: center;
 }
-div.homepage_faces ul {
-	text-align: center;
-	margin-bottom: 0;
-}
-div.menu-faces-container > ul > li.menu-item {
-	background-color: white;
+div.face_item {
+	width: 245px;
+    margin: auto;
+    overflow: hidden;
+    height: 245px;
     border-radius: 50%;
-	width: 130px;
-	padding: 70px 10px;
-    display: inline-block;
-    margin: 2%;
+    margin: 3% auto;
+}
+div.face_item a {
+	display: block;
+    height: 245px;
 }
 
 /*--- Footer ---*/
@@ -717,6 +717,10 @@ footer {
 	}
 	div.homepage_faces {
 		background-size: 100%;
+		text-align: center;
+	}
+	div.face_item {
+	    display: inline-block;
 	}
 }
 

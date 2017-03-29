@@ -47,15 +47,6 @@ function blank_widgets_init() {
 		'before_title' => '<h3>',
 		'after_title' => '</h3>'
 		));
-    register_sidebar( array(
-		'name' => ('Homepage Faces of Xq27.3-q28 Deletion'),
-		'id' => 'homepage-faces',
-		'description' => 'Sixth widget for the homepage',
-		'before_widget' => '<div class="homepage_faces">',
-		'after_widget' => '</div>',
-		'before_title' => '<h3>',
-		'after_title' => '</h3>'
-		));
     /*-----Volunteer Page Widgets-----*/
     register_sidebar( array(
 		'name' => ('Volunteer Page Banner'),
@@ -175,4 +166,12 @@ function wpb_adding_scripts() {
 	wp_enqueue_script('main_js');
 	}
 	add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );
+
+
+add_filter( 'post_thumbnail_html', 'my_post_image_html', 10, 3 );
+function my_post_image_html( $html, $post_id, $post_image_id ) {
+    $html = '<a href="' . get_permalink( $post_id ) . '" title="' .
+        esc_attr( get_post_field( 'post_title', $post_id ) ) . '">' . $html . '</a>';
+    return $html;
+}
 ?>

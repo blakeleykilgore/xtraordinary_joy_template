@@ -58,7 +58,17 @@
             <?php dynamic_sidebar('homepage-upcoming-events'); ?>
         </section>
         <section class="row">
-            <?php dynamic_sidebar('homepage-faces'); ?>
+            <div class="homepage_faces">
+                <h3>Faces of Xq27.3-q28 DELETION</h3>
+                <?php query_posts('cat=10'); ?>
+                <?php if ( have_posts() ) :
+                    while ( have_posts() ) : the_post(); ?>
+                    <div class="face_item">
+                        <?php the_post_thumbnail(); ?>
+                    </div>
+                    <?php endwhile;
+                endif; ?>
+            </div>
         </section>
     </main>
 <?php get_footer(); ?>
