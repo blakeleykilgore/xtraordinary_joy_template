@@ -1037,7 +1037,7 @@ footer {
 }
 
 /*--- Pages Menu ---*/
-header.pages_header > img {
+header.pages_header > a > img {
 	box-shadow: none;
     border-radius: 0;
 }
