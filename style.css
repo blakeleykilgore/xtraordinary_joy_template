@@ -499,6 +499,51 @@ div.face_item img {
     width: 150%;
     height: auto;
 }
+div.face_item:hover {
+	filter: brightness(40%);
+}
+
+/*--- Faces Pages ---*/
+section.faces_single img {
+	text-align: center;
+	display: block;
+	height: auto;
+	margin: auto;
+	border-radius: 10px;
+}
+section.faces_single p {
+	text-align: center;
+    font-size: 1.3em;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #8c8c8c;
+}
+section.faces_single h2 {
+	text-align: center;
+    font-size: 2.5em;
+    line-height: 23px;
+    letter-spacing: 1px;
+	text-align: center;
+	color: #006699;
+	margin-top: 1em;
+	font-family: KTF-Roadstar;
+}
+a.learn_more_button {
+	display: block;
+	width: 45%;
+	margin: auto;
+	color: #ff0099;
+	border: solid 3px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	font-family: KTF-Roadstar;
+}
+a.learn_more_button:hover {
+	color: #006699;
+}
+
 
 /*--- Footer ---*/
 footer {
@@ -1385,66 +1430,4 @@ body > div.container > main > section:nth-child(3) > div > div.campaign-summary 
 	line-height: 26px;
 	padding: 0 2em;
 	color: #8f8e8e;
-}
-
-/*--- Faces Menu !!!!MAKE DYNAMIC!!!! ---*/
-div.menu-faces-container > ul > li.menu-item:nth-child(1) {
-	background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/Copy-of-AMeecham1016_5816e.jpg');
-    background-size: 150%;
-    background-position: center top;
-    background-repeat: no-repeat;
-}
-div.menu-faces-container > ul > li.menu-item:nth-child(2) {
-	background-image: url('http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/02/Foley-9.jpeg');
-    background-size: 200%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-div.menu-faces-container > ul > li.menu-item:hover {
-	filter: brightness(40%);
-}
-div.menu-faces-container > ul > li.menu-item > a {
-	opacity: 0;
-    padding: 15%;
-}
-
-/*--- Faces Pages ---*/
-section.faces_single img {
-	text-align: center;
-	display: block;
-	height: auto;
-	margin: auto;
-	border-radius: 10px;
-}
-section.faces_single p {
-	text-align: center;
-    font-size: 1.3em;
-    line-height: 23px;
-    letter-spacing: 1px;
-    color: #8c8c8c;
-}
-section.faces_single h2 {
-	text-align: center;
-    font-size: 2.5em;
-    line-height: 23px;
-    letter-spacing: 1px;
-	text-align: center;
-	color: #006699;
-	margin-top: 1em;
-	font-family: KTF-Roadstar;
-}
-a.learn_more_button {
-	display: block;
-	width: 45%;
-	margin: auto;
-	color: #ff0099;
-	border: solid 3px;
-	text-align: center;
-	padding: 10px;
-	border-radius: 10px;
-	margin-bottom: 50px;
-	font-family: KTF-Roadstar;
-}
-a.learn_more_button:hover {
-	color: #006699;
 }
