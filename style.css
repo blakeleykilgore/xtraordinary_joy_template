@@ -468,7 +468,6 @@ body > div.container > main > section:nth-child(7) > div > a:hover {
 div.homepage_faces {
 	display: block;
 	background-image: url("images/background.png");
-	background-repeat: repeat;
 	padding: 5%;
 }
 div.homepage_faces h3 {
@@ -482,9 +481,10 @@ div.homepage_faces h3 {
 	text-align: center;
 }
 div.face_item {
+	display: block;
 	background-color: white;
 	width: 225px;
-    margin: 0 2%;
+    margin: 0 auto;
     overflow: hidden;
     height: 225px;
     border-radius: 50%;
@@ -723,10 +723,12 @@ footer {
 		margin-top: 15px;
 	}
 	div.homepage_faces {
+		display: block;
 		text-align: center;
 	}
 	div.face_item {
 	    display: inline-block;
+		margin: 1%;
 	}
 }
 
