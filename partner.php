@@ -20,11 +20,6 @@
 	        	<?php dynamic_sidebar('partner-banner'); ?>
 			</div>
 	    </section>
-		<section class="row">
-			<div class="twelve columns">
-	        	<?php dynamic_sidebar('sponsors-slider'); ?>
-			</div>
-	    </section>
 		<section>
 			<div class="row">
 				<div class="twelve columns">
@@ -72,6 +67,11 @@
 				</div>
 			</div>
 		</section>
+		<section class="row">
+			<div class="twelve columns">
+	        	<?php dynamic_sidebar('sponsors-slider'); ?>
+			</div>
+	    </section>
 		<section class="row">
 			<div class="twelve columns" id="view_events">
 		        <h3><a href="http://www.blakeleykilgore.com/xtraordinaryjoy/wp-content/uploads/2017/03/sponsorshipform.pdf" download>Download Our Sponsorship Form</a></h3>

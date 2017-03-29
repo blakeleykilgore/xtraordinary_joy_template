@@ -1094,6 +1094,11 @@ header.pages_header > img {
 	margin-bottom: 2em;
 }
 
+div#metaslider_391 {
+	margin-top: -35px;
+    margin-bottom: 5%;
+}
+
 .sponsor_package {
     color: #ff0099;
 }
@@ -1433,6 +1438,3 @@ body > div.container > main > section:nth-child(3) > div > div.campaign-summary 
 }
 
 /* --- Single Event Info/Registration Page --- */
-.flex-direction-nav .flex-next, .flex-direction-nav .flex-prev {
-	margin-top: -25%;
-}
