@@ -1008,13 +1008,15 @@ footer {
 
 .pages_banner p,
 .pages_banner > .textwidget {
-    line-height: 22px;
-	margin: auto;
+	line-height: 22px;
+    margin: auto;
     margin-top: 2em;
-    width: 80%;
+    width: 90%;
     text-align: center;
-	font-family: 'Cabin Condensed', sans-serif;
-	letter-spacing: 1px;
+    font-family: 'Cabin Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    line-height: 25px;
 }
 
 .banner_button {
