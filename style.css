@@ -583,7 +583,7 @@ footer {
 	}
 	#menu-index_menu li {
 	    display: inline-block;
-		padding: 2% 0% 2% 1%;
+		padding: 2% 2% 2% 1%;
 	}
 	#menu-item-115 > a {
 		padding: 7px;
@@ -615,7 +615,7 @@ footer {
 	    padding: 2%;
 		border: 4px solid white;
 		background-color: rgba(238, 238, 238, 0.4);
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 	div.homepage_banner > div.textwidget > a:hover {
 		background-color: rgba(255, 0, 153, 0.51)
@@ -668,14 +668,14 @@ footer {
 	    margin-left: 40%;
 	}
 	section.row.our_fundraising > div.six.columns > a {
-	    width: 50%;
+		width: 50%;
 	    border-radius: 15px;
 	    color: #006699;
 	    border: 3px solid #006699;
 	    background-color: #ffffff;
-	    padding: 4% 0%;
+	    padding: 15px 0%;
 	    margin-left: 95%;
-		font-size: 1.2em;
+	    font-size: 1.5em;
 	}
 	section.row.our_fundraising > div.six.columns > a:hover {
 		color: #ff0099;
@@ -696,13 +696,13 @@ footer {
 	    border-radius: 2px;
 	}
 	body > div.container > main > section:nth-child(7) > div > a {
-		font-size: 1.2em;
-		background-color: #ffffff;
-		color: #ff0099;
-		border: 3px solid;
-		border-radius: 15px;
-		width: 29%;
-		padding: 3% 0%;
+		font-size: 1.5em;
+	    background-color: #ffffff;
+	    color: #ff0099;
+	    border: 3px solid;
+	    border-radius: 15px;
+	    width: 29%;
+	    padding: 20px 0%;
 	}
 	body > div.container > main > section:nth-child(7) > div > a:hover {
 		background-color: #ffffff;
@@ -717,7 +717,7 @@ footer {
 		margin-top: -30px;
 	}
 	div.homepage_banner > div.textwidget > a {
-		margin-top: -15%;
+		margin-top: -14%;
 	}
 	div.homepage_mission_statement > div.textwidget {
 		height: 75px;
