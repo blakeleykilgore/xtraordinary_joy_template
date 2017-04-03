@@ -575,10 +575,6 @@ footer {
 	#menu-index_menu {
 		margin-bottom: 0;
 	}
-	div.homepage_banner {
-		z-index: -1000;
-    	margin-top: -20px;
-	}
 	#menu-index_menu li a {
 	    font-size: 1.3vw;
 	}
@@ -714,9 +710,6 @@ footer {
 
 /*--- Homepage Small Tablets ---*/
 @media (min-width: 750px) {
-	div.homepage_banner {
-		margin-top: -30px;
-	}
 	div.homepage_banner > div.textwidget > a {
 		margin-top: -14%;
 	}
@@ -800,9 +793,6 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
-	div.homepage_banner {
-	    margin-top: -50px;
-	}
 	.homepage_banner .textwidget h4 {
 		font-size: 2em;
 	}
@@ -870,9 +860,6 @@ footer {
 	}
 	#menu-index_menu li a {
 	    font-size: 1.4em;
-	}
-	div.homepage_banner {
-	    margin-top: -80px;
 	}
 	.homepage_banner .textwidget h4 {
 		background-image: linear-gradient(rgba(238, 238, 238, 0.7) 40px, transparent 0);
