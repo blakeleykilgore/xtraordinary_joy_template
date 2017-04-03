@@ -1012,7 +1012,6 @@ footer {
 
 .pages_banner p,
 .pages_banner > .textwidget {
-	line-height: 22px;
     margin: auto;
     margin-top: 2em;
     width: 90%;
@@ -1021,6 +1020,7 @@ footer {
     letter-spacing: 1px;
     font-size: 1.2em;
     line-height: 25px;
+	text-shadow: 1px 2px 7px #333;
 }
 
 .banner_button {
@@ -1040,6 +1040,7 @@ footer {
     display: block;
     width: 30%;
     margin: 2em auto 0;
+	text-shadow: none;
 }
 
 /*--- Pages Menu ---*/
