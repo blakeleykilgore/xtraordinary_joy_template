@@ -1227,6 +1227,10 @@ div.events_page_upcoming_events div.textwidget a {
     margin: 5% 2% 7% 2%;
 }
 
+div.events_page_upcoming_events div.textwidget a:hover {
+	color: #ff0099;
+}
+
 /*--- Upcoming events page for large screens ---*/
 @media (min-width: 768px) {
 	#events_banner_container > div > p {
