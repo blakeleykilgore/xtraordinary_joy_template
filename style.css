@@ -136,11 +136,11 @@ header img {
 .homepage_banner .textwidget {
 	margin-bottom: 45px;
 }
+
 #homepage_banner_image {
 	width: 100%;
 	position: relative;
 	z-index: -1000;
-	opacity: 0.9;
 }
 
 .homepage_banner .textwidget h4 {
@@ -595,6 +595,7 @@ footer {
 	    font-size: 1em;
 	    width: 68%;
 	    padding: 0;
+		background-image: linear-gradient(rgba(238, 238, 238, 0.7) 40px, transparent 0);
 	}
 	.homepage_joy_styling {
 		display: block;
