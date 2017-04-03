@@ -277,6 +277,7 @@ section.our_story {
 div.homepage_our_story_image > img {
 	width: 100%;
 	margin-top: 5%;
+	margin-bottom: -3px;
 }
 
 /*--- Home Page: Our Fundraising (Widget) ---*/
@@ -724,6 +725,9 @@ footer {
 	}
 	.homepage_mission_statement a {
 		margin-top: 25px;
+	}
+	div.homepage_our_story_image > img {
+		margin-top: 3%;
 	}
 	.our_fundraising img {
 		width: 15%;
