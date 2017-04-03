@@ -141,7 +141,6 @@ header img {
 	position: relative;
 	z-index: -1000;
 	opacity: 0.9;
-	border-radius: 10px;
 }
 
 .homepage_banner .textwidget h4 {
@@ -173,7 +172,7 @@ header img {
 
 /*--- Home Page: Mission Statement ---*/
 .homepage_mission_statement {
-    background: repeating-linear-gradient(45deg, rgba(0, 102, 153, 0.5), rgba(0, 102, 153, 0.5) 3px, rgba(0, 102, 153, 0.6) 3px, rgba(0, 102, 153, 0.6) 7px);
+    background-image: url(images/background.png);
 	letter-spacing: 1px;
 }
 
@@ -619,7 +618,7 @@ footer {
 	}
 	div.homepage_mission_statement > div.textwidget {
 		height: 90px;
-		box-shadow: 1px 1px 10px rgba(25, 36, 48, 0.4);
+		box-shadow: 1px 1px 10px #8c8c8c;
 	}
 	.homepage_mission_statement p {
 		padding: 3%;
