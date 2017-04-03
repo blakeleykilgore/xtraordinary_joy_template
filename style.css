@@ -1321,8 +1321,8 @@ div.events_page_upcoming_events div.textwidget a {
 }
 
 #follow_icon {
-	width: 25%;
-	margin-top: -4em;
+	width: 33%;
+    margin-top: -5em;
 }
 
 @media (min-width: 500px) {
@@ -1341,10 +1341,14 @@ div.events_page_upcoming_events div.textwidget a {
 	float: left;
 	position: absolute;
 	width: 35%;
-	top: 800px;
+	top: 850px;
 	left: 7px;
 	right: 0px;
 	max-width: 275px;
+	}
+
+	.contact_follow_us h3 {
+		padding-top: 0.5em;
 	}
 
 	.social-links {
@@ -1362,7 +1366,6 @@ div.events_page_upcoming_events div.textwidget a {
 
 .contact_follow_us h3 {
     text-align: center;
-    padding-top: 1em;
 }
 
 .contact_follow_us > .textwidget {
