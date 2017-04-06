@@ -411,12 +411,16 @@ div.events-list-image img {
 	pointer-events: none;
 }
 
-.events-list-date {
+.events-list-date, span.event-time {
 	font-size: 1em;
 	color: #85cef5;
 	font-family: 'Cabin Condensed', sans-serif;
 	letter-spacing: 1.5px;
 	margin-left: 4%;
+}
+
+span.event-time {
+	margin-left: 1%;
 }
 
 .events-list-item .event-venue {
@@ -1318,6 +1322,9 @@ div.events_page_upcoming_events div.textwidget a:hover {
 #follow_icon {
 	width: 33%;
     margin-top: -5em;
+}
+div.social-links > a > img:hover {
+	opacity: 0.2;
 }
 
 @media (min-width: 500px) {
