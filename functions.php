@@ -8,7 +8,7 @@ function blank_widgets_init() {
 		'description' => 'First widget for the homepage',
 		'before_widget' => '<div class="homepage_banner">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="display_none">',
+		'before_title' => '<h3 class="hidden">',
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
@@ -17,7 +17,7 @@ function blank_widgets_init() {
 		'description' => 'Second widget for the homepage',
 		'before_widget' => '<div class="homepage_mission_statement">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="display_none">',
+		'before_title' => '<h3 class="hidden">',
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
@@ -35,7 +35,7 @@ function blank_widgets_init() {
 		'description' => 'Fourth widget for the homepage',
 		'before_widget' => '<article class="homepage_research">',
 		'after_widget' => '</article>',
-		'before_title' => '<h4 class="display_none">',
+		'before_title' => '<h4 class="hidden">',
 		'after_title' => '</h4>'
 		));
     register_sidebar( array(
@@ -73,7 +73,7 @@ function blank_widgets_init() {
 		'description' => 'First widget for the partner page',
 		'before_widget' => '<div class="pages_banner" id="partner_banner_container">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="display_none">',
+		'before_title' => '<h3 class="hidden">',
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
@@ -82,7 +82,7 @@ function blank_widgets_init() {
 		'description' => 'Second widget for the partner page',
 		'before_widget' => '<div class="sponsors_slider">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="display_none">',
+		'before_title' => '<h3 class="hidden">',
 		'after_title' => '</h3>'
 		));
     /*-----Resources Page Widgets-----*/
@@ -92,7 +92,7 @@ function blank_widgets_init() {
 		'description' => 'First widget for the resources page',
 		'before_widget' => '<div class="pages_banner" id="resources_banner_container">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="display_none">',
+		'before_title' => '<h3 class="hidden">',
 		'after_title' => '</h3>'
 		));
     /*-----Contact Page Widgets-----*/
@@ -102,7 +102,7 @@ function blank_widgets_init() {
         'description' => 'First widget for the contact page',
         'before_widget' => '<div class="pages_banner" id="contact_banner_container">',
         'after_widget' => '</div>',
-        'before_title' => '<h3 class="display_none">',
+        'before_title' => '<h3 class="hidden">',
         'after_title' => '</h3>'
         ));
     register_sidebar( array(
@@ -111,7 +111,7 @@ function blank_widgets_init() {
         'description' => 'Second widget for the contact page',
         'before_widget' => '<div class="contact_info">',
         'after_widget' => '</div>',
-        'before_title' => '<h3 class="display_none">',
+        'before_title' => '<h3 class="hidden">',
         'after_title' => '</h3>'
         ));
     register_sidebar( array(
@@ -130,7 +130,7 @@ function blank_widgets_init() {
 		'description' => 'First widget for the events page',
 		'before_widget' => '<div class="pages_banner" id="events_banner_container">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="display_none">',
+		'before_title' => '<h3 class="hidden">',
 		'after_title' => '</h3>'
 		));
     register_sidebar( array(
@@ -139,7 +139,7 @@ function blank_widgets_init() {
 		'description' => 'Second widget for the events page',
 		'before_widget' => '<div class="events_page_upcoming_events">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="display_none">',
+		'before_title' => '<h3 class="hidden">',
 		'after_title' => '</h3>'
 		));
     /*-----Donate Page Widgets-----*/

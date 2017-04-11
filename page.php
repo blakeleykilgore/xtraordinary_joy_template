@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 	<nav>
+		<h2 class="hidden">Navigation</h2>
 		<?php
 			wp_nav_menu(array(
 				'menu' => 'pages_menu'

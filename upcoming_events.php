@@ -6,6 +6,7 @@
 		<p class="display_none"><?php bloginfo('description'); ?></p>
 	</header>
 	<nav class="pages_menu">
+		<h2 class="hidden">Navigation</h2>
 		<?php
 			wp_nav_menu(array(
 				'menu' => 'index_menu'

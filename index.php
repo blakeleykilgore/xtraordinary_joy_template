@@ -5,6 +5,7 @@
 		<p class="display_none"><?php bloginfo('description'); ?></p>
 	</header>
 	<nav class="pages_menu">
+		<h2 class="hidden">Navigation</h2>
 		<?php
 			wp_nav_menu(array(
 				'menu' => 'index_menu'
@@ -24,6 +25,7 @@
         </section>
         <section class="row icon_links">
             <div class="four columns">
+				<h3 class="hidden">Ways to Help</h3>
                 <a href="http://www.blakeleykilgore.com/xtraordinaryjoy/campaigns/donate">Donate</a>
             </div>
             <div class="four columns">

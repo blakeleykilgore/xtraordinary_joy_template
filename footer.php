@@ -1,4 +1,5 @@
     <footer>
+        <h2 class="hidden">Footer Menu</h2>
         <?php
             wp_nav_menu(array(
                 'menu' => 'footer_menu'

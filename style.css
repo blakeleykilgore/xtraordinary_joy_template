@@ -30,6 +30,11 @@ Text Domain: xtraordinary_joy_template
 	display: none;
 }
 
+h2.hidden, h3.hidden, h4.hidden {
+	visibility: hidden;
+	position: absolute;
+}
+
 .container {
 	overflow-x: hidden;
 	padding: 0;
