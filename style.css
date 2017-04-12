@@ -975,6 +975,7 @@ footer {
 
 .campaign-summary .campaign-figures .amount, .campaign-summary .campaign-raised .amount {
 	font-size: 2em;
+	padding-bottom: 7px;
 }
 
 .campaign-summary .campaign-raised span,
