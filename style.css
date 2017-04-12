@@ -561,7 +561,7 @@ footer {
 
 /*--- Home Page Media Queries ---*/
 /*--- Fix Mobile Only ---*/
-@media (max-width: 450px) {
+@media (max-width: 550px) {
 	.container {
 		margin-top: 20%;
 	}
@@ -588,7 +588,7 @@ footer {
 	}
 	#menu-index_menu li {
 	    display: inline-block;
-		padding: 2% 2% 2% 1%;
+		padding: 2% 1.5% 2% 1%;
 	}
 	#menu-item-115 > a {
 		padding: 7px;
