@@ -1234,7 +1234,7 @@ div.events_page_upcoming_events div.textwidget a:hover {
 /*--- Upcoming events page for large screens ---*/
 @media (min-width: 768px) {
 	#events_banner_container > div > p {
-		font-size: 1.5em;
+		font-size: 1.2em;
     	line-height: 30px;
 	}
 }
